@@ -1,0 +1,2 @@
+# scout-core
+scout-core
