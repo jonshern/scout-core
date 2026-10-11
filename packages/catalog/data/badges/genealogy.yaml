@@ -1,0 +1,67 @@
+id: badge:genealogy
+name: Genealogy
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/genealogy/
+worksheet_url: http://usscouts.org/mb/worksheets/Genealogy.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor what the words genealogy, ancestor, and descendant mean.
+      - n: 1b
+        text: Explain what a family tree is and what information would be kept there.
+      - n: 1c
+        text: Explain what a family group record is and what information would be kept there.
+  - n: "2"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 2a
+        text: Create a time line for yourself or for a relative. Then write a short biography based on that time line.
+      - n: 2b
+        text: Keep a journal for six weeks. You must write in it at least once a week.
+  - n: "3"
+    text: With your parent or guardian’s help, choose a relative or a family acquaintance you can interview in person, by telephone, or by email or letter. Record the information you collect so you do not forget it.
+  - n: "4"
+    text: "Do the following:"
+    children:
+      - n: 4a
+        text: Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.
+      - n: 4b
+        text: Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.
+      - n: 4c
+        text: Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record.
+      - n: 4d
+        text: Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c).
+      - n: 4e
+        text: "Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information."
+  - n: "5"
+    text: "Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides, and report the results:"
+    children:
+      - n: 5a
+        text: A genealogical or lineage society
+      - n: 5b
+        text: A professional genealogist (someone who gets paid for doing genealogical research)
+      - n: 5c
+        text: A surname organization, such as your family’s organization
+      - n: 5d
+        text: A genealogical educational facility or institution
+      - n: 5e
+        text: A genealogical record repository of any type (courthouse, genealogical library, state or national archive, state library, etc.)
+  - n: "6"
+    text: Begin your family tree by listing yourself and include at least two additional generations. You may complete this requirement by using the chart provided in the Genealogy pamphlet or the genealogy software program of your choice.
+  - n: "7"
+    text: Complete a family group record form, listing yourself and your brothers and sisters as the children. On another family group record form, show your parent or guardian and his or her brothers and sisters as the children. This requirement may be completed using the chart provided or the genealogy software program of your choice.
+  - n: "8"
+    text: "Do the following:"
+    children:
+      - n: 8a
+        text: Explain the effect computers and the internet are having on the world of genealogy.
+      - n: 8b
+        text: Explain how photography (including microfilming) has influenced genealogy.
+      - n: 8c
+        text: Explain how record indexing works and how that has influenced genealogy.
+  - n: "9"
+    text: Discuss what you have learned about your family and your family members through your genealogical research.

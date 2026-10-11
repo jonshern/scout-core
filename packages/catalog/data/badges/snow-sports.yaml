@@ -1,0 +1,213 @@
+id: badge:snow-sports
+name: Snow Sports
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/snow-sports/
+worksheet_url: http://usscouts.org/mb/worksheets/Snow-Sports.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
+      - n: 1b
+        text: Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock, dehydration, sunburn, concussion, fractures, bruises, sprains, strains. Tell how to apply splints.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Explain why every snow sport participant should be prepared to render * The skills may be demonstrated on any boat available to the Scout; sailboards are not acceptable. While no specific sail plan is recommended, it is suggested that the craft be smaller than 20 feet. The boat must be capsizable and have the capability of sailing to windward. † Capsize procedures should be conducted under the close supervision of the counselor. A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore. Self-bailing boats are acceptable for this requirement. Extreme care should be taken to avoid personal injury and damage to the boat or equipment. first aid in the event of an accident.
+      - n: 2b
+        text: Explain the procedure used to report an accident to the local ski patrol or local emergency personnel.
+  - n: "3"
+    text: Explain the international trail-marking system.
+  - n: "4"
+    text: Discuss the importance of strength, endurance, and flexibility in snow sports. Demonstrate exercises and activities you can do to get fit for the option you choose in requirement 7.
+  - n: "5"
+    text: Present yourself properly clothed and equipped for the option you choose in requirement 7. Discuss how the clothing you have chosen will help keep you warm and protected.
+  - n: "6"
+    text: "Do the following:"
+    children:
+      - n: 6a
+        updated_2026: true
+        text: Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why each person must follow this code.
+      - n: 6b
+        text: Explain the Smart Style safety program. Tell why it is important and how it applies to participants at snow sport venues like terrain parks and pipes.
+      - n: 6c
+        text: Explain the precautions pertaining to avalanche safety, including the responsibility of individuals regarding avalanche safety.
+  - n: "7"
+    updated_2026: true
+    text: "Do ONE of the following options:"
+    choose: 1
+    options:
+      - key: A
+        name: "Downhill (Alpine) Skiing. Do ALL of the following: Note: Generally, a gentle slope will be a trail designated by a green circle, a slightly steeper slope will be a green circle or blue square trail, and an intermediate slope will be a blue square trail. However, your counselor should determine what type of hill is most suited to your skill level and allows you to demonstrate each of the required skills."
+      - key: B
+        name: "Cross-Country (Nordic) Skiing. Do ALL of the following:"
+      - key: C
+        name: Snowboarding
+      - key: D
+        name: "Snowshoeing. Do ALL of the following:"
+    children:
+      - n: 7a-optA
+        option: A
+        updated_2026: true
+        text: Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers.
+      - n: 7b-optA
+        option: A
+        updated_2026: true
+        text: Explain the American Teaching System and a basic snow skiing progression.
+      - n: 7c-optA
+        option: A
+        updated_2026: true
+        text: Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily.
+      - n: 7d-optA
+        option: A
+        updated_2026: true
+        text: Demonstrate how to ride one kind of lift and explain how to ride two others.
+      - n: 7e-optA
+        option: A
+        updated_2026: true
+        text: On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers.
+      - n: 7f-optA
+        option: A
+        updated_2026: true
+        text: On slightly steeper terrain, show linked wedge turns.
+      - n: 7g-optA
+        option: A
+        updated_2026: true
+        text: On a moderate slope, demonstrate five to 10 christies.
+      - n: 7h-optA
+        option: A
+        updated_2026: true
+        text: Make a controlled run down a intermediate slope.
+      - n: 7i-optA
+        option: A
+        updated_2026: true
+        text: Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions, and moguls. Maintain your balance and ability to turn.
+      - n: 7j-optA
+        option: A
+        updated_2026: true
+        text: Name the major ski organizations in the United States and explain their functions.
+      - n: 7a-optB
+        option: B
+        updated_2026: true
+        text: Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort.
+      - n: 7b-optB
+        option: B
+        updated_2026: true
+        text: Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails.
+      - n: 7c-optB
+        option: B
+        updated_2026: true
+        text: Discuss classic, skating, touring, and telemark skis.
+      - n: 7d-optB
+        option: B
+        updated_2026: true
+        text: Discuss the basic principles of waxing for cross-country ski touring.
+      - n: 7e-optB
+        option: B
+        updated_2026: true
+        text: Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing.
+      - n: 7f-optB
+        option: B
+        updated_2026: true
+        text: List the items you would take on a one-day ski tour.
+      - n: 7g-optB
+        option: B
+        updated_2026: true
+        text: Demonstrate the proper use of a topographic map and compass.
+      - n: 7h-optB
+        option: B
+        updated_2026: true
+        text: On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers.
+      - n: 7i-optB
+        option: B
+        updated_2026: true
+        text: On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer form ski to ski, pole timing, rhythm, flow, and glide.
+      - n: 7j-optB
+        option: B
+        updated_2026: true
+        text: "Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor."
+      - n: 7k-optB
+        option: B
+        updated_2026: true
+        text: Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag.
+      - n: 7a-optC
+        option: C
+        text: Discuss forward-fall injuries.
+      - n: 7b-optC
+        option: C
+        text: Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort.
+      - n: 7c-optC
+        option: C
+        text: Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes.
+      - n: 7d-optC
+        option: C
+        text: Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely.
+      - n: 7e-optC
+        option: C
+        text: Demonstrate how to ride one kind of lift and explain how to ride two others.
+      - n: 7f-optC
+        option: C
+        text: Demonstrate the basic principles of waxing a snowboard.
+      - n: 7g-optC
+        option: C
+        text: "Do the following:"
+        children:
+          - n: 7g-optC1
+            text: On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver.
+          - n: 7g-optC2
+            text: On slightly steeper terrain, show traversing.
+      - n: 7h-optC
+        option: C
+        text: On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie.
+      - n: 7i-optC
+        option: C
+        text: Make a controlled run down an intermediate slope.
+      - n: 7j-optC
+        option: C
+        text: Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn.
+      - n: 7k-optC
+        option: C
+        text: Name the major snowboarding organizations in the United States and explain their functions.
+      - n: 7a-optD
+        option: D
+        updated_2026: true
+        text: Name the parts of a snowshoe.
+      - n: 7b-optD
+        option: D
+        updated_2026: true
+        text: Explain how to choose the correct size of snowshoe.
+      - n: 7c-optD
+        option: D
+        updated_2026: true
+        text: Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe.
+      - n: 7d-optD
+        option: D
+        updated_2026: true
+        text: Explain how to properly care for and maintain snowshoes.
+      - n: 7e-optD
+        option: D
+        updated_2026: true
+        text: List the items you would take on a one-day snowshoe hike.
+      - n: 7f-optD
+        option: D
+        updated_2026: true
+        text: Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing.
+      - n: 7g-optD
+        option: D
+        updated_2026: true
+        text: Discuss the benefits of snowshoeing.
+      - n: 7h-optD
+        option: D
+        updated_2026: true
+        text: Demonstrate the most efficient ways to break trail, climb uphill, travel downhill and traverse a slope.
+      - n: 7i-optD
+        option: D
+        updated_2026: true
+        text: "Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile hike with prior approval from their counselor."
+      - n: 7j-optD
+        option: D
+        updated_2026: true
+        text: Demonstrate the proper use of a topographic map and compass.

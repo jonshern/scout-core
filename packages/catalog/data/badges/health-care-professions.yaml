@@ -1,0 +1,128 @@
+id: badge:health-care-professions
+name: Health Care Professions
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/health-care-professions/
+worksheet_url: http://usscouts.org/mb/worksheets/Health-Care-Professions.pdf
+requirements:
+  - n: "1"
+    text: "Select three of the professions from Group 1 below which interest you, then complete the following:"
+    children:
+      - n: 1a
+        text: Briefly describe to your counselor the roles these professionals play in the delivery of health care.
+      - n: 1b
+        text: Describe to your counselor the educational and licensing requirements for the professionals you selected. Group 1
+        children:
+          - n: 1b1
+            text: Allopathic physician (MD) — all specialties
+          - n: 1b2
+            text: Osteopathic physician (DO) — all specialties
+          - n: 1b3
+            text: Podiatrist (DPM)
+          - n: 1b4
+            text: Chiropractor (DC)
+          - n: 1b5
+            text: Nurse Practitioner (NP)
+          - n: 1b6
+            text: Psychologist (PhD or PsyD)
+          - n: 1b7
+            text: Optometrist (OD)
+          - n: 1b8
+            text: Audiologist (AudD)
+  - n: "2"
+    text: "Select three of the professions from Group 2 below which interest you, then complete the following:"
+    children:
+      - n: 2a
+        text: Briefly describe to your counselor the roles these professionals play in the delivery of health care.
+      - n: 2b
+        text: Describe to your counselor the educational and licensing requirements for the professionals you selected. Group 2
+        children:
+          - n: 2b1
+            text: Physician Assistant (PA)
+          - n: 2b2
+            text: Registered Nurse (RN)
+          - n: 2b3
+            text: Certified Nurse Midwife (CNM)
+          - n: 2b4
+            text: Certified Nurse Assistant (CNA)
+          - n: 2b5
+            text: Licensed Practical Nurse (LPN/LVN)
+          - n: 2b6
+            text: Nurse Anesthetist (CRNA)
+          - n: 2b7
+            text: Pharmacist (PharmD)
+          - n: 2b8
+            text: Pharmacy Technician
+          - n: 2b9
+            text: Emergency Medical Technician (EMT)/Paramedic
+  - n: "3"
+    text: "Select three of the professions from Group 3 below which interest you, then complete the following:"
+    children:
+      - n: 3a
+        text: Briefly describe to your counselor the roles these professionals play in the delivery of health care.
+      - n: 3b
+        text: Describe to your counselor the educational and licensing requirements for the professionals you selected. Group 3
+        children:
+          - n: 3b1
+            text: Physical Therapist (DPT)
+          - n: 3b2
+            text: Occupational Therapist (OT)
+          - n: 3b3
+            text: Orthotist/Prosthetist
+          - n: 3b4
+            text: Medical Appliance Technician
+          - n: 3b5
+            text: Respiratory Therapist (RT)
+          - n: 3b6
+            text: Medical Assistant
+          - n: 3b7
+            text: Dietitian (RD)
+          - n: 3b8
+            text: Speech-Language Pathologist (Speech Therapist) (SLP)
+  - n: "4"
+    text: "Select three of the professions from Group 4 below which interest you, then complete the following:"
+    children:
+      - n: 4a
+        text: Briefly describe to your counselor the roles these professionals play in the delivery of health care.
+      - n: 4b
+        text: Describe to your counselor the educational and licensing requirements for the professionals you selected. Group 4
+        children:
+          - n: 4b1
+            text: Biomedical Engineer (BME)
+          - n: 4b2
+            text: Medical Technologist
+          - n: 4b3
+            text: Phlebotomist
+          - n: 4b4
+            text: Radiology Technologist
+          - n: 4b5
+            text: Sonographer
+          - n: 4b6
+            text: Medical Records Specialist
+          - n: 4b7
+            text: Cytopathologist
+          - n: 4b8
+            text: Histotechnologist
+  - n: "5"
+    text: "Select one career from any of the lists in requirements 1, 2, 3, or 4 and arrange to visit that professional at their workplace. Discuss with your counselor the following:"
+    children:
+      - n: 5a
+        text: Why did they choose their particular career?
+      - n: 5b
+        text: What do they most like about their job?
+      - n: 5c
+        text: What are their biggest challenges in doing their job?
+      - n: 5d
+        text: Identify the tools/instruments that may be used in their jobs.
+      - n: 5e
+        text: What has been the most surprising aspect of their career?
+      - n: 5f
+        text: What continuing education requirements are required to maintain certification.
+  - n: "6"
+    text: Discuss with your counselor your understanding of the meaning of the Physician’s Oath.
+  - n: "7"
+    text: Describe the role of confidentiality between a patient and the health care provider. What is HIPAA?
+  - n: "8"
+    text: Identify a medical advancement or discovery that has been in the news recently. Discuss with your counselor how this can affect patient care.
+  - n: "9"
+    text: With approval of your counselor and parent or guardian, serve as a volunteer at a health-related event or facility in your community (e.g. blood drive, health fair, blood pressure screening event). Report to your counselor what you did and learned from the experience.

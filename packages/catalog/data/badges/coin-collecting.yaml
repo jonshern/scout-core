@@ -1,0 +1,55 @@
+id: badge:coin-collecting
+name: Coin Collecting
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/coin-collecting/
+worksheet_url: http://usscouts.org/mb/worksheets/Coin-Collecting.pdf
+requirements:
+  - n: "1"
+    text: Understand how coins are made and where the active U.S. Mint facilities are located.
+  - n: "2"
+    text: "Explain the following terms: obverse, reverse, reeding, clad, type set, date set."
+  - n: "3"
+    text: Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method.
+  - n: "4"
+    updated_2026: true
+    text: "Do the following and explain to your counselor the design features, designer name, designer initials, and where to find them for each item:"
+    children:
+      - n: 4a
+        text: "Collect a one-cent coin from the year group: 1959-2008 (that is, dated between 1959 and 2008) and a one-cent coin from the year group 2010-present. Explain how and why the one-cent coins issued in 2009 were different from either of the other two year groups."
+      - n: 4b
+        text: "Collect two five-cent coins, one from each of these year groups: 1959-2003 and 2006-present. Explain how and why the five-cent coins issued in 2004-2005 were different from either of the other two year groups."
+      - n: 4c
+        text: Collect a ten-cent coin from 1965-present.
+      - n: 4d
+        text: Collect a twenty-five-cent coin from 1965-1998, two examples from the 50-State Quarter® /territories Program 1999-2009, two designs from the America the Beautiful® program 2010-2021 and two designs from the American Woman Quarter® program (2022-2024). Explain the purpose of each of those programs.
+      - n: 4e
+        text: Collect a half dollar coin from 1965-present.
+      - n: 4f
+        text: "Collect a dollar coin from the following design groups: Susan B. Anthony 1979-1981, 1999, Sacagawea 2000-2008, U.S. Presidents 2007-2016, 2020."
+  - n: "5"
+    text: Describe and discuss with your counselor the special reverse designs of the quarters, half dollar and dollar coin struck in 1975-1976 to honor the U.S. Bicentennial.
+  - n: "6"
+    text: "Identify for your counselor the people depicted on current currency: $1, $2, $5, $10, $20, $50, and $100 notes. Explain where United States currency is printed."
+  - n: "7"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 7a
+        text: Collect and identify for your counselor 20 different world coins from at least seven different countries. Identify the country, major design elements, and denomination of each.
+      - n: 7b
+        text: Collect and identify for your counselor 20 different world paper money from at least seven different countries. Identify the country, major design elements, and denomination of each.
+      - n: 7c
+        text: Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use of each.
+      - n: 7d
+        text: "Complete one of the following and report to your counselor what you experienced:"
+        choose: 1
+        children:
+          - n: 7d1
+            text: Attend a coin show
+          - n: 7d2
+            text: Attend a coin club meeting
+          - n: 7d3
+            text: Tour a U.S. Mint facility or museum
+          - n: 7d4
+            text: Tour a virtual exhibit (with your parent or guardian’s permission) approved by your counselor.

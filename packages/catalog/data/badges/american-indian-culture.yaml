@@ -1,0 +1,38 @@
+id: badge:american-indian-culture
+name: American Indian Culture
+formerly: Indian Lore
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/american-indian-culture/
+worksheet_url: http://usscouts.org/mb/worksheets/Indian-Lore.pdf
+requirements:
+  - n: "1"
+    text: Identify the different American Indian cultural areas. Explain what makes them each unique.
+  - n: "2"
+    text: Research an American Indian tribe, group, or nation. Tell your counselor about traditional dwellings, way of life, tribal government, religious beliefs, family and clan relationships, language, clothing styles, arts and crafts, food cultivation, foraging and preparation, means of getting around, games, customs in warfare, and where and how they live today.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Learn 10 common terms in an American Indian language and their meanings.
+      - n: 3b
+        text: Identify the meaning of 10 place names of American Indian origin in the United States.
+      - n: 3c
+        text: Name five well-known American Indian leaders, either from the past or people of today. Give their tribes or nations. Describe what they did or do now that makes them notable.
+  - n: "4"
+    text: "Do the following:"
+    children:
+      - n: 4a
+        text: Describe how life might have been different for the European settlers if there had been no Native Americans to meet them when they came to this continent.
+      - n: 4b
+        text: Describe eight things adopted by others from American Indians.
+      - n: 4c
+        text: Learn a game played by a group or tribe. Teach and lead it with a Scout group.
+  - n: "5"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 5a
+        text: Visit a museum either in-person or virtually to see American Indian exhibitions and collections. Discuss with your counselor what you observed or learned from two exhibitions and identify 10 artifacts by tribe or nation, their shape, size, and use.
+      - n: 5b
+        text: Attend a contemporary American Indian gathering. Discuss with your counselor proper etiquette for attending as well as what you learned and observed during your visit.

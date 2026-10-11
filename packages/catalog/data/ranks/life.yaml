@@ -1,0 +1,22 @@
+id: rank:life
+name: Life
+edition: 2026
+summary: Short summaries; check the Scouts BSA Handbook for exact wording.
+official_url: https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/
+requirements:
+  - n: "1"
+    text: Be active in the troop for 6 months as a Star Scout
+  - n: "2"
+    text: Demonstrate Scout spirit
+  - n: "3"
+    text: Earn 5 more merit badges (11 total), at least 3 more Eagle-required (7 total)
+  - n: "4"
+    text: 6 hours of service as a Star Scout, at least 3 conservation-related
+  - n: "5"
+    text: Serve 6 months in a position of responsibility
+  - n: "6"
+    text: Use the EDGE method to teach a younger Scout a skill
+  - n: "7"
+    text: Scoutmaster conference
+  - n: "8"
+    text: Board of review

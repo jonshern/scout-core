@@ -1,0 +1,20 @@
+id: rank:eagle
+name: Eagle
+edition: 2026
+summary: Short summaries; check the Scouts BSA Handbook for exact wording.
+official_url: https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/
+requirements:
+  - n: "1"
+    text: Be active in the troop for 6 months as a Life Scout
+  - n: "2"
+    text: Demonstrate Scout spirit and list references
+  - n: "3"
+    text: Earn 21 merit badges including the 14 Eagle-required
+  - n: "4"
+    text: Serve 6 months in a position of responsibility
+  - n: "5"
+    text: Plan, develop, and lead an Eagle service project
+  - n: "6"
+    text: Scoutmaster conference
+  - n: "7"
+    text: Board of review (before age 18)

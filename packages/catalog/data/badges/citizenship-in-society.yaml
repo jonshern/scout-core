@@ -1,0 +1,113 @@
+id: badge:citizenship-in-society
+name: Citizenship in Society
+edition: 2026
+eagle_required: false
+discontinued: 2026-02-27
+notes: Discontinued by Scouting America effective February 27, 2026; scouts can no longer start it, and it is no longer Eagle-required (13 required badges plus 8 electives).
+official_url: https://www.scouting.org/merit-badges/citizenship-in-society/
+worksheet_url: http://usscouts.org/mb/worksheets/Citizenship-in-Society-Checklist.pdf
+requirements:
+  - n: "1"
+    text: "Before beginning work on other requirements for this merit badge, research the following terms and explain to your counselor how you feel they relate to the Scout Oath and Scout Law: identities, diversity, equality, equity, inclusion, discrimination, ethical leadership, upstander."
+  - n: "2"
+    text: Document and discuss with your counselor what leadership means to you. Share what it means to make ethical decisions
+    children:
+      - n: 2a
+        text: Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision. (It could be someone in history, a family member, a teacher, a coach, a counselor, a clergy member, a Scoutmaster, etc.)
+      - n: 2b
+        text: Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action.
+  - n: "3"
+    text: Consider ethical decision-making.
+    children:
+      - n: 3a
+        text: Think about a time you faced an ethical decision.
+        children:
+          - n: 3a1
+            text: Discuss the situation, what you did, and how it made you feel.
+          - n: 3a2
+            text: Share if you would do anything differently in the future and if so, what that would be.
+      - n: 3b
+        text: List three examples of ethical decisions you might have to make in the future at school, at home, in the workplace, or in your community, and what you would do. Share how your actions represent alignment with the Scout Oath and Scout Law.
+      - n: 3c
+        text: Explain to your counselor how you plan to use what you have learned to assist you when that time comes, and what action(s) you can take to serve as an upstander and help other people at all times.
+  - n: "4"
+    text: "Repeat the Scout Oath and Scout Law for your counselor. Choose TWO of the following scenarios and discuss what you could do as a Scout to demonstrate leadership and your understanding of what it means to help others who may seem different from you:"
+    choose: 2
+    children:
+      - n: 4a
+        text: "Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/should you do?"
+      - n: 4b
+        text: "Scenario 2: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students created a fake social media account to impersonate your friend online and post messages. What could/should you do?"
+      - n: 4c
+        text: "Scenario 3: A new student in your class was born in another country (or has a parent who was born in another country). Your friends make rude comments to the student about their speech or clothes and tell the student to “go back home where you came from.” What could/should you do?"
+  - n: "5"
+    text: "Document and discuss with your counselor:"
+    children:
+      - n: 5a
+        text: Ideas on what you personally can do to create a welcoming environment in your Scouting unit.
+      - n: 5b
+        text: An experience you had in which you went out of your way to include another Scout(s) and what you did to make them feel included and welcomed.
+      - n: 5c
+        text: Things you can do to help ensure all Scouts in your unit are given an opportunity to be heard and included in decision-making and planning.
+  - n: "6"
+    text: With your parent’s or guardian’s approval, connect with another Scout or youth your own age who has an identity that’s different from yours. (This means a trait, belief, or characteristic different from you.)
+    children:
+      - n: 6a
+        text: Share with each other what makes the different aspect of your identity meaningful/special to you.
+      - n: 6b
+        text: "Share with each other ONE of the following options:"
+        choose: 1
+        options:
+          - key: "1"
+            name: A time you felt excluded from a group.
+          - key: "2"
+            name: "This imaginary situation: You’re attending a new school and don’t know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you’ll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself."
+        children:
+          - n: 6b1
+            option: "1"
+            text: A time you felt excluded from a group. (a) What was the situation? (b) How did it make you feel? (c) What did you do? (d) Did anyone stand up for you? (e) What did you learn? (f) Would you do anything differently today?
+          - n: 6b2
+            option: "2"
+            text: "This imaginary situation: You’re attending a new school and don’t know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you’ll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself. (a) How would that make you feel? (b) What could the students have done? (c) If that happened at your school, what would you do?"
+      - n: 6c
+        text: Discuss with your counselor what you learned from the discussion with the other Scout or youth.
+  - n: "7"
+    text: Identify and interview an individual in your community, school, and/or Scouting who has had a significant positive impact in promoting diversity, equity, and inclusion. If you feel your community, school, or local Scouting group does not have such an individual, then research a historical figure who meets these criteria, and discuss that person with your counselor.
+    children:
+      - n: 7a
+        text: Discover what inspired the individual, learn about the challenges they faced, and share what you feel attributed to their success.
+      - n: 7b
+        text: Discuss with your counselor what you learned and how you can apply it in your life.
+  - n: "8"
+    text: With the help of your parent or guardian, study an event that had a positive outcome on how society viewed a group of people and made them feel more welcome. Describe to your counselor the event and what you learned.
+  - n: "9"
+    text: "Document and discuss with your counselor three or more areas in your life outside of Scouting where you feel you can actively provide stronger leadership in:"
+    children:
+      - n: 9a
+        text: Making others feel included.
+      - n: 9b
+        text: Practicing active listening.
+      - n: 9c
+        text: Creating an environment where others feel comfortable to share their ideas and perspectives.
+      - n: 9d
+        text: Helping others feel valued for their input and suggestions.
+      - n: 9e
+        text: Standing up for others.
+  - n: "10"
+    text: Discuss with your counselor how stereotyping people can be harmful, and how stereotypes can lead to prejudice and discrimination. Share ideas you have for challenging assumptions and celebrating individuality.
+  - n: "11"
+    text: Scouting strives to develop young people to be future leaders in their workplaces, schools, and community environments. As you look at your current involvement in school, your family, Scouting, your job, and/or community, think about how you can have a positive impact in diversity, equity, and inclusion.
+    children:
+      - n: 11a
+        text: Describe your ideas on how you can and will support others with different identities to feel included and heard at your school, workplace, and/or social settings in your community.
+      - n: 11b
+        text: "Explain how including diverse thoughts and opinions from others with different identities can:"
+        children:
+          - n: 11b1
+            text: Make your interactions more positive.
+          - n: 11b2
+            text: Help everyone benefit by considering different opinions.
+      - n: 11c
+        text: Give three examples of how limiting diverse input can be harmful.
+      - n: 11d
+        text: Give three examples of how considering diverse opinions can lead to innovation and success.

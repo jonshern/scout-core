@@ -1,0 +1,67 @@
+id: badge:law
+name: Law
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/law/
+worksheet_url: http://usscouts.org/mb/worksheets/Law.pdf
+requirements:
+  - n: "1"
+    text: Define “law.” Tell some of its sources. Describe the functions it serves.
+  - n: "2"
+    text: "Discuss TWO of the following:"
+    children:
+      - n: 2a
+        text: Justinian’s Code, the Code of Hammurabi, and the Magna Carta
+      - n: 2b
+        text: The development of the jury system
+      - n: 2c
+        text: Two famous trials in history
+  - n: "3"
+    text: Tell what civil law is; tell what criminal law is. Tell the main differences between them. Give examples of each.
+  - n: "4"
+    updated_2026: true
+    text: Ask five people (not more than one from your immediate family) about the role of law enforcement officers in our society. Discuss their answers with them. Report your findings to your counselor.
+  - n: "5"
+    text: Discuss with your counselor several laws that were passed to protect the consumer and the seller. Describe several organizations that provide help to consumers and sellers.
+  - n: "6"
+    updated_2026: true
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 6a
+        text: Attend a session of a civil or criminal court. Write 250 words or more on what you saw.
+      - n: 6b
+        text: Plan and conduct a mock trial with your troop, school class, or other group. After the trial is over, discuss it with the group.
+  - n: "7"
+    text: Arrange a visit with a lawyer who works for a business, bank, title company, or government agency. Find out his or her duties and responsibilities. Report what you have learned.
+  - n: "8"
+    text: Explain the requirements for becoming a lawyer in your state. Describe how judges are selected in your state.
+  - n: "9"
+    text: Make a list of 15 jobs that deal with some aspects of law or legal processes. Tell which you prefer. Why?
+  - n: "10"
+    text: Tell where people can go to obtain the help of a lawyer if they are unable to pay for one. Tell what you can do if you can afford a lawyer but do not know of any in your area.
+  - n: "11"
+    text: "Discuss with your counselor the importance in our society of TWO of the following areas of the law or process:"
+    children:
+      - n: 11a
+        text: Administrative
+      - n: 11b
+        text: Alternative Dispute Resolution
+      - n: 11c
+        text: Bankruptcy
+      - n: 11d
+        text: Biotechnology
+      - n: 11e
+        text: Environmental
+      - n: 11f
+        text: Family
+      - n: 11g
+        text: Immigration
+      - n: 11h
+        text: Information Technology
+      - n: 11i
+        text: Intellectual Property (Copyright, Patents and Trademarks)
+      - n: 11j
+        text: International
+      - n: 11k
+        text: Privacy

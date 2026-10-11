@@ -1,0 +1,20 @@
+id: rank:star
+name: Star
+edition: 2026
+summary: Short summaries; check the Scouts BSA Handbook for exact wording.
+official_url: https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/
+requirements:
+  - n: "1"
+    text: Be active in the troop for 4 months as a First Class Scout
+  - n: "2"
+    text: Demonstrate Scout spirit
+  - n: "3"
+    text: Earn 6 merit badges, at least 4 Eagle-required
+  - n: "4"
+    text: 6 hours of service as a First Class Scout
+  - n: "5"
+    text: Serve 4 months in a position of responsibility
+  - n: "6"
+    text: Scoutmaster conference
+  - n: "7"
+    text: Board of review

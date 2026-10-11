@@ -1,0 +1,122 @@
+id: badge:archery
+name: Archery
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/archery/
+worksheet_url: http://usscouts.org/mb/worksheets/Archery.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
+      - n: 1b
+        text: Explain the five range safety rules.
+      - n: 1c
+        text: Explain the four whistle commands used on the range.
+      - n: 1d
+        text: Explain how to safely remove arrows from the target and return them to your quiver.
+      - n: 1e
+        text: Tell your counselor about your local and state laws for owning and using archery equipment.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Name and point to the parts of an arrow.
+      - n: 2b
+        text: Describe three or more different types of arrows.
+      - n: 2c
+        text: Name the four principal materials for making arrow shafts.
+      - n: 2d
+        text: Do ONE of the following
+        choose: 1
+        children:
+          - n: 2d1
+            text: Make a complete arrow from a bare shaft using appropriate equipment available to you.
+          - n: 2d2
+            text: To demonstrate arrow repair, inspect the shafts and prepare and replace at least three vanes, one point, and one nock. You may use as many arrows as necessary to accomplish this. The repairs can be done on wood, fiberglass, or aluminum arrows.
+      - n: 2e
+        text: Explain how to properly care for and store arrows.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Explain the proper use, care, and storage of, as well as the reasons for using tabs, arm guards, shooting gloves, and quivers.
+      - n: 3b
+        text: "Explain the following terms: draw length, draw weight, mechanical release, barebow."
+  - n: "4"
+    text: "Explain the following:"
+    children:
+      - n: 4a
+        text: The difference between an end and a round
+      - n: 4b
+        text: The differences among field, target, and 3-D archery
+      - n: 4c
+        text: How the five-color World Archery Federation target is scored
+      - n: 4d
+        text: How the National Field Archery Association (NFAA) black-and-white field targets and blue indoor targets are scored
+  - n: "5"
+    text: "Working under the supervision of a certified USA Archery Level 1 Instructor or a certified long-term camp staff member (i.e., a National Camping School [NCS] Range Activities Director; or a Rangemaster over age 18 who is trained by a NCS Range Activities Director or by a USA Archery Level 1 Instructor), do ONE of the following options:"
+    choose: 1
+    options:
+      - key: A
+        name: Recurve Bow or Longbow
+      - key: B
+        name: Compound Bow
+    children:
+      - n: 5a-optA
+        option: A
+        text: Name and point to the parts of the recurve or longbow you are shooting.
+      - n: 5b-optA
+        option: A
+        text: Explain how to properly care for and store recurve bows and longbows.
+      - n: 5c-optA
+        option: A
+        text: Demonstrate and explain USA Archery’s 11 “Steps of Shooting” for the bow you are shooting.
+      - n: 5d-optA
+        option: A
+        text: Demonstrate the proper way to string a recurve bow or longbow.
+      - n: 5e-optA
+        option: A
+        text: Using a bow square, locate and mark with dental floss, crimp-on, or other method, the nocking point on the bowstring of the bow that you are using.
+      - n: 5f-optA
+        option: A
+        text: "Do ONE of the following:"
+        choose: 1
+        children:
+          - n: 5f-optA1
+            text: "Using a recurve or longbow and arrows with a finger release, shoot a single round of one of the following Scouting America, USA Archery, or NFAA rounds: (a) An NFAA field round of 14 targets and make a score of 60 points (b) A Scouting America field round of 14 targets and make a score of 80 points (c) World Archery/USA Archery indoor round and make a score of 80 points (indoor rounds may be shot outdoors if this is more convenient). (d) An NFAA indoor round and make a score of 50 points (indoor rounds may be shot outdoors if this is more convenient)."
+          - n: 5f-optA2
+            text: Shooting 30 arrows in five-arrow ends at an 80-centimeter (32-inch) five-color target at 10 yards and using the 10 scoring regions, make a score of 150 points.
+          - n: 5f-optA3
+            text: As a member of the USA Archery Junior Olympic Archery Development program (JOAD), earn your indoor or outdoor green, purple, and gray achievement award pins using a recurve bow or longbow.
+          - n: 5f-optA4
+            text: As a member of the NFAA’s Junior Division, earn a Cub or Youth 100-score Progression Patch.
+      - n: 5a-optB
+        option: B
+        text: Name and point to the parts of the compound bow you are shooting.
+      - n: 5b-optB
+        option: B
+        text: Explain how to properly care for and store compound bows.
+      - n: 5c-optB
+        option: B
+        text: Demonstrate and explain USA Archery’s 11 “Steps of Shooting” for the bow you are shooting.
+      - n: 5d-optB
+        option: B
+        text: Explain why it is necessary to have the string or cable on a compound bow replaced at an archery shop.
+      - n: 5e-optB
+        option: B
+        text: Locate and mark with dental floss, crimp-on, or other method, the nocking point on the bowstring of the bow that you are using.
+      - n: 5f-optB
+        option: B
+        text: "Do ONE of the following:"
+        choose: 1
+        children:
+          - n: 5f-optB1
+            text: "Using a compound bow and arrows with a finger release, shoot a single round of one of the following Scouting America, USA Archery, or NFAA rounds: (a) An NFAA field round of 14 targets and make a score of 70 points (b) A Scouting America field round of 14 targets and make a score of 90 points (c) A World Archery/USA Archery indoor round and make a score of 90 points (indoor rounds may be shot outdoors if this is more convenient) (d) An NFAA indoor* round and make a score of 60 points (indoor rounds may be shot outdoors if this is more convenient)"
+          - n: 5f-optB2
+            text: "Shooting at an 80-centimeter (32-inch) five-color target using the 10 scoring regions, make a minimum score of 160 points. Accomplish this in the following manner: Shoot 15 arrows in five-arrow ends, at a distance of 10 yards AND Shoot 15 arrows in fve-arrow ends, at a distance of 15 yards."
+          - n: 5f-optB3
+            text: As a member of the USA Archery Junior Olympic Archery Development program (JOAD), earn your indoor or outdoor green, purple, and gray achievement award pins using a compound bow.
+          - n: 5f-optB4
+            text: As a member of the NFAA’s Junior Division, earn a Cub or Youth 100-score Progression Patch.

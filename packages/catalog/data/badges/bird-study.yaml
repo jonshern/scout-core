@@ -1,0 +1,139 @@
+id: badge:bird-study
+name: Bird Study
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/bird-study/
+worksheet_url: http://usscouts.org/mb/worksheets/Bird-Study.pdf
+requirements:
+  - n: "1"
+    text: Explain the need for bird study and why birds are useful indicators of the quality of the environment. Describe how birds are part of the ecosystem.
+  - n: "2"
+    text: "Show that you are familiar with the terms used to describe birds by doing the following:"
+    children:
+      - n: 2a
+        text: Sketch or trace a perched bird and then label 15 different parts of the bird.
+      - n: 2b
+        text: Sketch or trace an extended wing and label six types of wing feathers.
+  - n: "3"
+    text: Demonstrate that you know how to properly use and care for binoculars, a spotting scope, or a monocular.
+    children:
+      - n: 3a
+        text: Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular.
+      - n: 3b
+        text: Show how to adjust the eyepiece and how to focus for proper viewing.
+      - n: 3c
+        text: Show how to properly care for and clean the lenses.
+      - n: 3d
+        text: Describe when and where each type of viewing device would be most effective.
+  - n: "4"
+    updated_2026: true
+    text: "Demonstrate that you know how to use a bird field guide. Show your counselor that you are able to understand a range map by locating in the book and pointing out the wintering range, the breeding range, and/or the year-round range of one species of each of the following types of birds:"
+    children:
+      - n: 4a
+        text: Seabird
+      - n: 4b
+        text: Plover
+      - n: 4c
+        text: Falcon or hawk
+      - n: 4d
+        text: Warbler or vireo
+      - n: 4e
+        text: Heron or egret
+      - n: 4f
+        text: Sparrow
+  - n: "5"
+    text: Observe and be able to identify 20 species of wild birds. Prepare a field notebook, making a separate entry for each species, and record the following information from your field observations and other references.
+    children:
+      - n: 5a
+        text: Note the date and time.
+      - n: 5b
+        text: Note the location and habitat.
+      - n: 5c
+        text: Describe the bird’s main feeding habitat and list two types of food that the bird is likely to eat.
+      - n: 5d
+        text: Note whether the bird is a migrant or a summer, winter, or year-round resident of your area.
+  - n: "6"
+    text: "Describe to your counselor how certain orders of birds are uniquely adapted to a specific habitat. In your description, include characteristics such as the size and shape of the following:"
+    children:
+      - n: 6a
+        text: Beak
+      - n: 6b
+        text: Body
+      - n: 6c
+        text: Leg and foot
+      - n: 6d
+        text: Feathers/plumage
+  - n: "7"
+    text: Explain the function of a bird’s song. Be able to identify five of the 20 species in your field notebook by song or call alone. Explain the difference between songs and calls. For each of these five species, enter a description of the song or call, and note the behavior of the bird making the sound. Note why you think the bird was making the call or song that you heard.
+  - n: "8"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 8a
+        text: Go on a field trip with a local club or with others who are knowledgeable about birds in your area.
+        children:
+          - n: 8a1
+            text: Keep a list or fill out a checklist of all the birds your group observed during the field trip.
+          - n: 8a2
+            text: Tell your counselor which birds your group saw and why some species were common and some were present in small numbers.
+          - n: 8a3
+            text: Tell your counselor what makes the area you visited good for finding birds.
+      - n: 8b
+        text: By using a public library, the internet, or contacting the National Audubon Society, find the name and location of the Christmas Bird Count nearest your home and obtain the results of a recent count.
+        children:
+          - n: 8b1
+            text: Explain what kinds of information are collected during the annual event.
+          - n: 8b2
+            text: Tell your counselor which species are most common, and explain why these birds are abundant.
+          - n: 8b3
+            text: Tell your counselor which species are uncommon, and explain why these were present in small numbers. If the number of birds of these species is decreasing, explain why, and what, if anything, could be done to reverse their decline.
+      - n: 8c
+        text: Participate in a bird banding program with an approved federal or state agency, university researcher, bird observatory, or certified private individual.
+        children:
+          - n: 8c1
+            text: Explain who is able to band birds and why.
+          - n: 8c2
+            text: Explain why birds get banded.
+          - n: 8c3
+            text: Explain what kinds of birds get banded.
+          - n: 8c4
+            text: Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program.
+  - n: "9"
+    updated_2026: true
+    text: Do ONE of the following. For the item you choose, describe what birds you hope to attract, and why. Describe the necessary maintenance required with the item that you choose.
+    choose: 1
+    children:
+      - n: 9a
+        text: Build a bird feeder and put it in an appropriate place in your yard or another location.
+      - n: 9b
+        text: Build a birdbath and put it in an appropriate place.
+      - n: 9c
+        text: Build a backyard sanctuary for birds by planting trees and shrubs for food and cover.
+      - n: 9d
+        text: Build a nest box for a species of your choice using plans approved by your counselor.
+      - n: 9e
+        text: Describe the elements of a backyard bird habitat for a given area and draw a plan for one, including lists of birds you hope to attract, appropriate plantings for food, cover, and nesting.
+  - n: "10"
+    updated_2026: true
+    text: "Do the following:"
+    children:
+      - n: 10a
+        text: Explain the differences between extinct, endangered, and threatened.
+      - n: 10b
+        text: Identify a bird species that is on the endangered or threatened list. Explain what caused their decline. Discuss with your counselor what can be done to reverse this trend and what can be done to help remove the species from the endangered or threatened list.
+      - n: 10c
+        text: Explain how we can address birds that are in decline before they get to an endangered or threatened list. List how we can protect habitat. Identify threats that migratory birds face and how to protect food supply for birds.
+  - n: "11"
+    text: Identify a non-native bird (introduced to North America from a foreign country since 1800). Describe how non-native birds may become damaging to the ecosystem. 12.Identify three career opportunities connected to the study of birds. Pick one and find out the education, training, and experience required for this profession. Discuss with your counselor if this profession might interest you.
+  - n: "12"
+    updated_2026: true
+    text: Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to bird study. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification.
+  - n: "13"
+    updated_2026: true
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 13a
+        text: Identify three career opportunities that would use skills and knowledge in Nature. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
+      - n: 13b
+        text: Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.

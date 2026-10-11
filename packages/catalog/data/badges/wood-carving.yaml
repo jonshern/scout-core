@@ -1,0 +1,45 @@
+id: badge:wood-carving
+name: Wood Carving
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/wood-carving/
+worksheet_url: http://usscouts.org/mb/worksheets/Wood-Carving.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
+      - n: 1b
+        text: Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Earn the Totin’ Chip recognition.
+      - n: 2b
+        text: Discuss with your counselor your understanding of the Safety Checklist for Carving.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project.
+      - n: 3b
+        text: Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices.
+  - n: "4"
+    text: "Using a piece of scrap wood or a project on which you are working, show your counselor that you know how to do the following:"
+    children:
+      - n: 4a
+        text: Paring cut
+      - n: 4b
+        text: Basic cut and push cut
+      - n: 4c
+        text: “V” cut
+      - n: 4d
+        text: Stop cut or score line
+  - n: "5"
+    text: Tell why different woods are used for different projects. Explain why you chose the type of wood you did for your projects in requirements 6 and 7.
+  - n: "6"
+    text: Plan your own or select a project from this merit badge pamphlet and complete a simple carving in the round.
+  - n: "7"
+    text: Complete a simple low-relief OR a chip carving project.

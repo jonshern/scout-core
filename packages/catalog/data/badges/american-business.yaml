@@ -1,0 +1,63 @@
+id: badge:american-business
+name: American Business
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/american-business/
+worksheet_url: http://usscouts.org/mb/worksheets/American-Business.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain four features of the free enterprise system in the United States. Describe the difference between freedom and license. Tell how the Scout Oath and Scout Law apply to business and free enterprise.
+      - n: 1b
+        text: Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States. Discuss three people who had a great influence on business or industry in the United States and describe what each did.
+      - n: 1c
+        text: Identify and describe to your counselor the five primary areas of business.
+      - n: 1d
+        text: Explain the history of labor unions in the United States and the importance of labor unions and employers working together. Identify two major labor unions currently in existence.
+      - n: 1e
+        text: Discuss with your counselor how business impacts the local, national, and global economy.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Explain the three basic types of financial statements (income statement, balance sheet, and statement of cash flows). Discuss with your counselor how each statement can help business leaders make better decisions.
+      - n: 2b
+        text: Explain how changes in interest rates, taxes, and government spending affect the flow of money into or out of business and industry.
+      - n: 2c
+        text: Explain how a sole proprietorship, partnership, or limited liability company gets its capital. Discuss and explain four ways a corporation obtains capital.
+      - n: 2d
+        text: Name five kinds of insurance useful to business. Describe their purposes.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Explain the place of profit in business.
+      - n: 3b
+        text: Describe to your counselor green marketing and sustainable business practices.
+      - n: 3c
+        text: Explain how ethics plays a role in business decision making.
+      - n: 3d
+        text: Discuss the differences between operating a brick-and-mortar business versus an online business.
+  - n: "4"
+    text: "Describe the role of the U.S. Department of Labor. Discuss TWO of the following topics with your counselor:"
+    children:
+      - n: 4a
+        text: Fair Labor Standards Act (FLSA)
+      - n: 4b
+        text: Occupational Safety and Health Act (OSHA)
+      - n: 4c
+        text: Family and Medical Leave Act (FMLA)
+      - n: 4d
+        text: Employee Retirement Income Security Act (ERISA)
+  - n: "5"
+    text: Choose a business and research how it applies to each of the primary areas of business (accounting, finance, economics, marketing, and management). Share what you have learned with your counselor.
+  - n: "6"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 6a
+        text: Choose one of the primary areas of business and identify three career opportunities. Select one and research the education, training, and experience required for this career. Discuss this with your counselor and explain why this interests you.
+      - n: 6b
+        text: Select a business leader and interview this individual to learn more about his or her company and career path. Discuss the role ethics plays in making business decisions. Share what you have learned with your counselor.

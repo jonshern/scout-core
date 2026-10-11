@@ -1,0 +1,25 @@
+id: badge:artificial-intelligence
+name: Artificial Intelligence
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/artificial-intelligence/
+worksheet_url: null
+notes:
+  - "Note: New badge launched in 2025. No printed pamphlet or usscouts worksheet yet; requirements are published online only."
+requirements:
+  - n: "1"
+    text: General knowledge. Define at least 15 key AI terms (such as machine learning, agent, automation, bot, data, narrow vs. general AI, trigger, and workflow) and discuss them with your counselor.
+  - n: "2"
+    text: AI around us. Find 10 everyday, 5 workplace, and 5 school examples of AI; play 10 rounds of an "AI or Not?" guessing exercise; and build a timeline of five major AI milestones.
+  - n: "3"
+    text: Automation. Find examples of automation in daily life, work, and school; explain how it handles repetitive tasks and reduces errors; and build an automation timeline.
+  - n: "4"
+    text: Ethics. Research bias, privacy, and AI decision-making; work through ethics scenarios; write your own AI ethics guidelines; and explain the Turing test.
+  - n: "5"
+    text: Deepfakes. Explain what they are, their impact on people, and what to do if you are targeted by one.
+  - n: "6"
+    text: Communicating with AI. Explain how AI learns and its limits, practice prompt engineering, and "teach" an AI a skill.
+  - n: "7"
+    text: "Project — do ONE: design and build a small AI project, OR design and teach an age-appropriate AI lesson to your patrol."
+  - n: "8"
+    text: "Careers — do ONE: research three AI/automation careers and study one in depth, OR interview an AI professional."

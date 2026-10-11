@@ -1,0 +1,58 @@
+id: badge:leatherwork
+name: Leatherwork
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/leatherwork/
+worksheet_url: http://usscouts.org/mb/worksheets/Leatherwork.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
+      - n: 1b
+        text: Show that you know first aid for injuries or illnesses that could occur while working with leather, including minor cuts and scratches, puncture wounds, ingested poisoning, and reactions from exposure to chemicals such as dyes, cements, and finishes used in leatherworking.
+  - n: "2"
+    text: "Explain the following:"
+    children:
+      - n: 2a
+        text: Where leather comes from
+      - n: 2b
+        text: Kinds of hides that are used to make leather
+      - n: 2c
+        text: The five types of leather
+      - n: 2d
+        text: Best uses for each type of leather
+  - n: "3"
+    text: "Make one or more articles of leather that use at least five of the following steps:"
+    children:
+      - n: 3a
+        text: Pattern layout and transfer
+      - n: 3b
+        text: Cutting leather
+      - n: 3c
+        text: Punching holes
+      - n: 3d
+        text: Carving or stamping surface designs
+      - n: 3e
+        text: Applying dye or stain and finish to the project
+      - n: 3f
+        text: Assembly by lacing or stitching
+      - n: 3g
+        text: Setting snaps and rivets
+      - n: 3h
+        text: Dressing edges
+  - n: "4"
+    text: Braid or plait an article out of leather, vinyl lace, or paracord.
+  - n: "5"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 5a
+        text: Learn about the commercial tanning process. Report about it to your counselor.
+      - n: 5b
+        text: Tan the skin of a small animal. Describe the safety precautions you will take and the tanning method that you used.
+      - n: 5c
+        text: Recondition or show that you can take proper care of your shoes, a baseball glove, a saddle, furniture, or other articles of leather. Discuss with your counselor the advantages or disadvantages of leather vs. synthetic materials.
+      - n: 5d
+        text: Visit a leather-related business. This could be a leathercraft supply company, a tannery, a leather goods or shoe factory, or a saddle shop. Report on your visit to your counselor.

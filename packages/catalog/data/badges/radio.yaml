@@ -1,0 +1,220 @@
+id: badge:radio
+name: Radio
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/radio/
+worksheet_url: http://usscouts.org/mb/worksheets/Radio.pdf
+requirements:
+  - n: "1"
+    updated_2026: true
+    text: "Radio Safety. Explain the safety precautions for working with radio gear, including:"
+    children:
+      - n: 1a
+        text: grounding for direct and alternating current circuits, power outlets, antennas, and lightning.
+      - n: 1b
+        text: preventing and treating electrical burns
+      - n: 1c
+        text: preventing lithium-ion battery fires in cellphones and other devices.
+  - n: "2"
+    updated_2026: true
+    text: "Radio Fundamentals. Do the following:"
+    children:
+      - n: 2a
+        text: "Do the following:"
+        children:
+          - n: 2a1
+            text: Draw a chart of the electromagnetic spectrum covering 300 kilohertz (kHz) to 3,000 Megahertz (MHz).
+          - n: 2a2
+            text: Label the MF, HF, VHF, UHF, and microwave portions of the spectrum on your diagram.
+          - n: 2a3
+            text: Locate on your chart at least eight radio services, such as AM and FM commercial broadcast, citizens band (CB), television, amateur radio (at least four amateur radio bands), public service (police and fire), cellular, Wi-Fi, and Bluetooth.
+      - n: 2b
+        text: "Discuss the following topics with your counselor:"
+        children:
+          - n: 2b1
+            text: The definition of radio
+          - n: 2b2
+            text: The differences between broadcast radio and two-way radio
+          - n: 2b3
+            text: The differences between commercial broadcast radio and hobby radio.
+  - n: "3"
+    updated_2026: true
+    text: "How Radio Waves Travel. Do the following:"
+    children:
+      - n: 3a
+        text: Sketch a diagram showing how different radio wavelengths can travel locally or around the world.
+      - n: 3b
+        text: Explain how the radio stations WWV and WWVH can be used to help determine what you can expect to hear when you listen to a shortwave radio.
+      - n: 3c
+        text: Explain the difference between a distant (DX) and a local station.
+  - n: "4"
+    updated_2026: true
+    text: "Information by Radio. Discuss the following with your counselor:"
+    children:
+      - n: 4a
+        text: How radio waves carry information using continuous wave (CW) Morse Code transmission, amplitude modulation (AM), frequency modulation (FM), single sideband (SSB) transmission, and frequency hopping.
+      - n: 4b
+        text: How digitized radio standards including Bluetooth, Wi-Fi, and 5G can offer more reliable data transmission and reception than analog standards.
+      - n: 4c
+        text: How the effective range varies for different methods of information encoding.
+      - n: 4d
+        text: How the maximum data rate from a Wi-Fi radio system compares to a hard-wired or fiber-optic system.
+  - n: "5"
+    updated_2026: true
+    text: "Radio Hardware and Services. Do the following:"
+    children:
+      - n: 5a
+        text: Explain the differences between a block diagram and a schematic diagram.
+      - n: 5b
+        text: Draw a block diagram for a radio station that shows a microphone, speaker, transceiver, transmitter, receiver, amplifier, feedline, and antenna and discuss the function of these components.
+      - n: 5c
+        text: List consumer devices and services that use analog or digital radio communications.
+      - n: 5d
+        text: Explain how NOAA Weather Radio (NWR) can alert you to danger.
+      - n: 5e
+        text: Explain how RFID works and what are some of its uses in everyday life.
+  - n: "6"
+    updated_2026: true
+    text: "Radio Regulation. Discuss the following with your counselor:"
+    children:
+      - n: 6a
+        text: What the Federal Communications Commission (FCC) does and how it is different from the International Telecommunication Union (ITU).
+      - n: 6b
+        text: How radio station call signs are used in broadcast radio and amateur radio
+      - n: 6c
+        text: How the phonetic alphabet is used to communicate clearly.
+  - n: "7"
+    updated_2026: true
+    text: "Cell Phones. Do the following:"
+    children:
+      - n: 7a
+        text: Explain how cellular systems differ from broadcast and hobby radio.
+      - n: 7b
+        text: Explain what Airplane Mode is and why it is important.
+      - n: 7c
+        text: Explain how cell phones keep the correct time and show locations and elevations.
+      - n: 7d
+        text: Explain the benefits and limitations of cell phones in emergencies.
+      - n: 7e
+        text: Explain wireless charging for cell phones and other devices.
+  - n: "8"
+    updated_2026: true
+    text: "Amateur and Professional Radio. Do ONE of the following options:"
+    choose: 1
+    options:
+      - key: A
+        name: "Amateur Radio. Do ALL of the following:"
+      - key: B
+        name: Radio Broadcasting
+      - key: C
+        name: Shortwave and Medium-Wave Listening
+      - key: D
+        name: Amateur Radio Direction Finding
+      - key: E
+        name: "Family Radio Service (FRS) & General Mobile Radio Service (GMRS) Walkie Talkies. Do ALL of the following:"
+    children:
+      - n: 8a-optA
+        option: A
+        updated_2026: true
+        text: Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license.
+      - n: 8b-optA
+        option: A
+        updated_2026: true
+        text: Explain differences between the Technician, General, and Extra Class license requirements and privileges. Explain who administers amateur radio exams.
+      - n: 8c-optA
+        option: A
+        updated_2026: true
+        text: Explain at least five Q signals or amateur radio terms.
+      - n: 8d-optA
+        option: A
+        updated_2026: true
+        text: Explain how you would make an emergency call on voice or Morse code.
+      - n: 8e-optA
+        option: A
+        updated_2026: true
+        text: Explain the differences between handheld, mobile, and base station transceivers and their uses. Explain the use of amateur radio repeaters.
+      - n: 8f-optA
+        option: A
+        updated_2026: true
+        text: "Using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact using voice, Morse code, or digital mode. Properly log the real or simulated amateur radio contact, and record the signal report. Note: Licensed amateur radio operators may substitute five QSL cards as evidence of contacts with five amateur radio operators."
+      - n: 8a-optB
+        option: B
+        text: Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations.
+      - n: 8b-optB
+        option: B
+        text: Prepare a program schedule for radio station “KBSA” of exactly onehalf hour, including music, news, commercials, and proper station identification. Record your program on audiotape or in a digital audio format, using proper techniques.
+      - n: 8c-optB
+        option: B
+        text: Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations.
+      - n: 8d-optB
+        option: B
+        text: Explain to your counselor at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, network, cue, dead air, PSA, and playlist.
+      - n: 8e-optB
+        option: B
+        text: Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts.
+      - n: 8a-optC
+        option: C
+        text: Listen across several shortwave bands for four one-hour periods—at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or webbased mapping service.
+      - n: 8b-optC
+        option: C
+        text: Listen to several medium-wave stations for two one-hour periods, one period during daylight hours and one period at night. Log the stations properly and locate them on a map, globe, or web-based mapping service.
+      - n: 8c-optC
+        option: C
+        text: Compare your daytime and nighttime shortwave logs; note the frequencies on which your selected stations were loudest during each session. Explain differences in the signal strength from one period to the next.
+      - n: 8d-optC
+        option: C
+        text: Compare your medium-wave broadcast station logs and explain why some distant stations are heard at your location only during the night.
+      - n: 8e-optC
+        option: C
+        text: Demonstrate listening to a radio broadcast using a smartphone/cell phone. Include international broadcasts in your demonstration.
+      - n: 8a-optD
+        option: D
+        text: Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition.
+      - n: 8b-optD
+        option: D
+        text: Describe what frequencies and equipment are used for ARDF or fox hunting.
+      - n: 8c-optD
+        option: D
+        text: Build a simple directional antenna for either of the two frequencies used in ARDF.
+      - n: 8d-optD
+        option: D
+        text: Participate in a simple fox hunt using your antenna along with a provided receiver.
+      - n: 8e-optD
+        option: D
+        text: Show, on a map, how you located the “fox” using your receiver.
+      - n: 8a-optE
+        option: E
+        updated_2026: true
+        text: Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) & Amateur Radio (HAM).
+      - n: 8b-optE
+        option: E
+        updated_2026: true
+        text: "Explain each of the following for using a FRS radio or GMRS walkie talkie:"
+        children:
+          - n: 8b-optE1
+            text: "Is any type of license needed to use these radios? If so: what kind?"
+          - n: 8b-optE2
+            text: what radio frequencies are used and how is information encoded?
+          - n: 8b-optE3
+            text: how much power can be used when transmitting?
+          - n: 8b-optE4
+            text: what type of antenna can be used?
+          - n: 8b-optE5
+            text: what is the effective range and what limits it?
+          - n: 8b-optE6
+            text: what are common everyday uses for these radios?
+          - n: 8b-optE7
+            text: how can these radios be useful in an emergency?
+      - n: 8c-optE
+        option: E
+        updated_2026: true
+        text: Use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game. Discuss what you learned with your counselor.
+  - n: "9"
+    updated_2026: true
+    text: Careers. Do ONE of the following.
+    choose: 1
+    children:
+      - n: 9a
+        text: Explore careers related to radio. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work or train. Discuss your findings and career interest with your counselor.
+      - n: 9b
+        text: Explore how you could use radio knowledge and skills to develop a hobby or to serve as a volunteer. If possible, with permission of your parent or guardian, interview a radio hobbyist or volunteer. Research training and licensing needed, expenses, and organizations that promote or support your objectives. Discuss with your counselor what short-term and long-term goals you might have if you pursue this.

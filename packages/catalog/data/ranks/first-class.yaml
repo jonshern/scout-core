@@ -1,0 +1,114 @@
+id: rank:first-class
+name: First Class
+edition: 2026
+official_url: https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/
+requirements:
+  - n: Camping and Outdoor Ethics
+    text: Camping and Outdoor Ethics
+    children:
+      - n: 1a
+        text: Participate in 10 troop/patrol activities (6 outdoors, 3 overnight camping)
+      - n: 1b
+        text: Explain potential impacts of camping, Outdoor Code, and Leave No Trace principles
+  - n: Cooking
+    text: Cooking
+    children:
+      - n: 2a
+        text: Help plan a menu for a campout (breakfast, lunch, dinner; cook at least 2 meals). Explain nutritional needs
+      - n: 2b
+        text: Using the menu from 2a, make a food list showing budget and amounts needed to feed 3+ youth. Secure the ingredients
+      - n: 2c
+        text: Show which pans, utensils, and gear will be needed to cook and serve these meals
+      - n: 2d
+        text: Demonstrate safe handling and storage of food. Show how to properly dispose of camp garbage, waste water, and rubbish
+      - n: 2e
+        text: On one campout, serve as cook. Supervise assistants. Prepare the meals from 2a. Supervise cleanup
+  - n: Tools
+    text: Tools
+    children:
+      - n: 3a
+        text: Discuss when you should and should not use lashings
+      - n: 3b
+        text: Demonstrate tying the timber hitch and clove hitch
+      - n: 3c
+        text: Demonstrate tying the square, shear, and diagonal lashings by joining two or more poles or staves together
+      - n: 3d
+        text: Use lashings to make a useful camp gadget or structure
+  - n: Navigation
+    text: Navigation
+    children:
+      - n: 4a
+        text: Using map and compass, complete an orienteering course (at least 1 mile), measuring height and/or width of designated items
+      - n: 4b
+        text: Demonstrate how to use a handheld GPS unit, GPS app, or other electronic navigation system
+  - n: Nature
+    text: Nature
+    children:
+      - n: 5a
+        text: Identify or show evidence of 10 kinds of native plants in your local area or campsite
+      - n: 5b
+        text: Identify 2 ways to obtain a weather forecast. Explain why weather forecasts are important when planning an event
+      - n: 5c
+        text: Describe at least 3 natural indicators of impending hazardous weather and the appropriate actions to take
+      - n: 5d
+        text: Describe extreme weather conditions in your area. Discuss how to determine ahead of time the risk and how to prepare
+  - n: Aquatics
+    text: Aquatics
+    children:
+      - n: 6a
+        text: Successfully complete the Scouting America swimmer test
+      - n: 6b
+        text: Tell what precautions must be taken for a safe trip afloat
+      - n: 6c
+        text: Identify the basic parts of a canoe, kayak, or other boat. Identify the parts of a paddle or oar
+      - n: 6d
+        text: Describe proper body positioning in a watercraft. Explain the importance of proper body position
+      - n: 6e
+        text: With a helper and a practice victim, show a line rescue both as tender and as rescuer (~30 feet from shore in deep water)
+  - n: First Aid and Emergency Preparedness
+    text: First Aid and Emergency Preparedness
+    children:
+      - n: 7a
+        text: Demonstrate bandages for a sprained ankle and for injuries on the head, upper arm, and collarbone
+      - n: 7b
+        text: Transport a person from a smoke-filled room. Transport 25 yards a person with a sprained ankle
+      - n: 7c
+        text: Tell the 5 most common signals of a heart attack. Explain CPR steps
+      - n: 7d
+        text: Tell what utility services exist in your home or meeting place. Describe potential hazards and how to respond
+      - n: 7e
+        text: Develop an emergency action plan for your home (fire, storm, power outage, water outage)
+      - n: 7f
+        text: Explain how to obtain potable water in an emergency
+  - n: Fitness
+    text: Fitness
+    children:
+      - n: 8a
+        text: After completing 2nd Class 7a, be physically active 30 min/day, 5 days/week, for 4 weeks. Keep track
+      - n: 8b
+        text: Share challenges and successes from 8a. Set a goal for continuing physical activity
+  - n: Citizenship
+    text: Citizenship
+    children:
+      - n: 9a
+        text: Visit and discuss with an approved individual the constitutional rights and obligations of a U.S. citizen
+      - n: 9b
+        text: Investigate an environmental issue affecting your community. Share what you learned, tell what could be done
+      - n: 9c
+        text: On an outing, take note of trash/garbage. Decide how to reduce, recycle, repurpose. Compare your results
+      - n: 9d
+        text: Participate in 3 hours of service projects approved by Scoutmaster (different from Tenderfoot 7b and 2nd Class)
+  - n: Leadership
+    text: Leadership
+    children:
+      - n: "10"
+        text: Tell someone eligible about joining Scouts BSA or invite an inactive Scout. Share efforts with Scoutmaster
+  - n: Scout Spirit
+    text: Scout Spirit
+    children:
+      - n: "11"
+        text: Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you lived 4 different points of the Scout Law (different from those used for previous ranks)
+      - n: "12"
+        text: Participate in a Scoutmaster conference (after completing 2nd Class requirement 11)
+      - n: "13"
+        text: Successfully complete your board of review for the First Class rank

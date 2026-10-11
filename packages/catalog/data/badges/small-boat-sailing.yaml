@@ -1,0 +1,74 @@
+id: badge:small-boat-sailing
+name: Small-Boat Sailing
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/small-boat-sailing/
+worksheet_url: http://usscouts.org/mb/worksheets/Small-Boat-Sailing.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the most likely hazards you may encounter while sailing and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
+      - n: 1b
+        text: "Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while sailing: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, strains."
+      - n: 1c
+        text: Discuss the Scouting America Safety Afloat policy. Tell how it applies to small-boat activities.
+  - n: "2"
+    updated_2026: true
+    text: "Before doing requirements 3 through 9, successfully complete the Scouting America swimmer test: Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test."
+  - n: "3"
+    text: Describe the boat you will be using for the sailing requirement, naming all of the major parts and the function of those parts.*
+  - n: "4"
+    text: "Before going afloat, do the following:"
+    children:
+      - n: 4a
+        text: Discuss the nine points of the Scouting America Safety Afloat plan.
+      - n: 4b
+        text: Explain the rules of the road in general and any specific rules or laws that apply to your area or state.
+      - n: 4c
+        text: Explain how water conditions, the hazards of weather, and heavy winds can affect both safety and performance in sailing.
+      - n: 4d
+        text: Discuss the warning signs of inclement weather and what to do should heavy winds develop or a storm approach.
+      - n: 4e
+        text: Prepare a typical float plan.
+      - n: 4f
+        text: Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in warm weather and in cool weather. Explain how choosing the proper clothing, footwear, and personal gear will help keep you comfortable and safe while sailing.
+  - n: "5"
+    text: Discuss with your counselor how to identify the wind direction and wind indicators. Explain the importance of this task before setting sail.
+  - n: "6"
+    text: "Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following:"
+    children:
+      - n: 6a
+        text: Prepare a boat for sailing, including a safety inspection.
+      - n: 6b
+        text: Get underway from a dock, mooring, or beach.
+      - n: 6c
+        text: Properly set sails for a round-trip course approved by your counselor that will include running, beating, and reaching—the basic points of sail. While sailing, demonstrate good helmsmanship skills.
+      - n: 6d
+        text: Change direction by tacking; change direction by jibing.
+      - n: 6e
+        text: Demonstrate getting out of irons.
+      - n: 6f
+        text: Demonstrate the safety position.
+      - n: 6g
+        text: Demonstrate capsize procedures and the rescue of a person overboard.†
+      - n: 6h
+        text: Demonstrate the procedure to take after running aground.
+      - n: 6i
+        text: Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths.
+      - n: 6j
+        text: Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer.
+  - n: "7"
+    text: "Demonstrate a working knowledge of marlinespike seamanship. Do the following:"
+    children:
+      - n: 7a
+        text: Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use of each.
+      - n: 7b
+        text: Show how to heave a line, coil a line, and fake down a line.
+      - n: 7c
+        text: Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages of each.
+  - n: "8"
+    text: Describe how you would care for and maintain a sailboat and its gear throughout the year.
+  - n: "9"
+    text: With your counselor, review sailing terminology and the points of sail. Discuss various types of sailboats in use today and explain their differences.

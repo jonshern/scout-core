@@ -1,0 +1,62 @@
+id: badge:electronics
+name: Electronics
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/electronics/
+worksheet_url: http://usscouts.org/mb/worksheets/Electronics.pdf
+requirements:
+  - n: "1"
+    text: Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or integrated circuits. Use the correct symbols. Label all parts.
+      - n: 2b
+        text: Tell the purpose of each part.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Show the right way to solder and desolder.
+      - n: 3b
+        text: Show how to avoid heat damage to electronic components.
+      - n: 3c
+        text: Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.
+  - n: "4"
+    text: "Do the following:"
+    children:
+      - n: 4a
+        text: "Discuss each of the following with your counselor:"
+        children:
+          - n: 4a1
+            text: How to use electronics for a control purpose.
+          - n: 4a2
+            text: Explain the basic principles of digital logic.
+          - n: 4a3
+            text: How to use electronics for three different analog applications.
+      - n: 4b
+        text: Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.
+      - n: 4c
+        text: Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates.
+        choose: 1
+        children:
+          - n: 4c1
+            text: Control device
+          - n: 4c2
+            text: Digital circuit
+          - n: 4c3
+            text: Analog circuit
+  - n: "5"
+    text: "Do the following:"
+    children:
+      - n: 5a
+        text: Show how to solve a simple problem involving current, voltage, and resistance using Ohm’s law.
+      - n: 5b
+        text: Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate.
+      - n: 5c
+        text: Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value.
+      - n: 5d
+        text: Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.
+  - n: "6"
+    text: Identify three career opportunities that would use skills and knowledge in Electronics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.

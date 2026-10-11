@@ -1,0 +1,110 @@
+id: badge:climbing
+name: Climbing
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/climbing/
+worksheet_url: http://usscouts.org/mb/worksheets/Climbing.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
+      - n: 1b
+        text: Show that you know first aid for and how to prevent injuries or illnesses that could occur during climbing activities, including heat and cold reactions, dehydration, stopped breathing, sprains, abrasions, fractures, rope burns, blisters, snakebite, concussions, and insect bites or stings.
+      - n: 1c
+        text: Identify the conditions that must exist before performing CPR on a person.
+  - n: "2"
+    text: Learn the Leave No Trace Seven Principles and the Outdoor Code and explain what they mean.
+  - n: "3"
+    text: Present yourself properly dressed for belaying, climbing, and rappelling. Explain why you are wearing each piece of gear and discuss qualities of easy movement, entanglement free and good weather protection and comfort.
+  - n: "4"
+    text: "Location. Do the following:"
+    children:
+      - n: 4a
+        text: Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where you will demonstrate your climbing skills.
+      - n: 4b
+        text: "Explain the following: top-rope climbing, lead climbing, and bouldering."
+      - n: 4c
+        text: Evaluate the safety of a particular climbing area. Consider weather, visibility, the condition of the climbing surface, and any other environmental hazards.
+      - n: 4d
+        text: Determine how to summon aid to the climbing area in case of an emergency. Discuss what medical training is needed for your group when climbing and rappelling in remote areas.
+  - n: "5"
+    text: "Verbal signals. Explain the importance of using verbal signals during every climb and rappel, and while bouldering. With the help of the counselor or another Scout, demonstrate the verbal signals used by each of the following:"
+    children:
+      - n: 5a
+        text: Climbers
+      - n: 5b
+        text: Rappellers
+      - n: 5c
+        text: Belayers
+      - n: 5d
+        text: Boulderers and their spotters
+  - n: "6"
+    text: "Rope. Do the following:"
+    children:
+      - n: 6a
+        text: Describe the kinds of rope acceptable for use in climbing and rappelling.
+      - n: 6b
+        text: Show how to examine a rope for signs of wear or damage.
+      - n: 6c
+        text: Discuss ways to prevent a rope from being damaged.
+      - n: 6d
+        text: Explain when and how a rope should be retired.
+      - n: 6e
+        text: Properly coil a rope.
+  - n: "7"
+    text: Knots. Demonstrate the ability to tie each of the following knots. Give at least one example of how each knot is used in belaying, climbing, or rappelling.
+    children:
+      - n: 7a
+        text: Figure eight on a bight
+      - n: 7b
+        text: Figure eight follow-through
+      - n: 7c
+        text: Water knot
+      - n: 7d
+        text: Double fisherman’s knot (grapevine knot)
+      - n: 7e
+        text: Prusik hitch applied to rope
+  - n: "8"
+    text: Harness, Helmet & Gloves. Explain the purpose of each of the following and demonstrate how to put them on correctly.
+    children:
+      - n: 8a
+        text: Commercially made climbing harness
+      - n: 8b
+        text: Climbing helmet
+      - n: 8c
+        text: Climbing or rappelling gloves
+  - n: "9"
+    text: Identify the elements of the CHECK system and describe the meaning of each one to your counselor.
+  - n: "10"
+    text: "Belaying. Do the following:"
+    children:
+      - n: 10a
+        text: Explain the importance of belaying climbers and rappellers and when it is necessary.
+      - n: 10b
+        text: Belay three different climbers on three different routes.
+      - n: 10c
+        text: Serve as a backup belayer on three different climbs.
+      - n: 10d
+        text: Belay three different rappellers on three different routes.
+      - n: 10e
+        text: Serve as a backup belayer on three different rappels.
+  - n: "11"
+    text: "Climbing. Do the following:"
+    children:
+      - n: 11a
+        text: Show the correct way to directly tie a belay rope to your harness.
+      - n: 11b
+        text: Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer.
+  - n: "12"
+    text: "Rappelling. Do the following:"
+    children:
+      - n: 12a
+        text: Show the correct way to directly tie a belay rope to your harness.
+      - n: 12b
+        text: Using a carabiner and a rappel device, attach a rappel rope to your harness.
+      - n: 12c
+        text: Rappel down three different rock faces or three rappel routes on a climbing wall. Use verbal signals to communicate with a belayer, and demonstrate good rappelling technique.
+  - n: "13"
+    text: Demonstrate ways to store rope, hardware, and other gear used for climbing, rappelling, and belaying.

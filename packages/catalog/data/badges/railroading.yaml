@@ -1,0 +1,122 @@
+id: badge:railroading
+name: Railroading
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/railroading/
+worksheet_url: http://usscouts.org/mb/worksheets/Railroading.pdf
+requirements:
+  - n: "1"
+    text: "Do THREE of the following:"
+    choose: 3
+    children:
+      - n: 1a
+        text: Name three types of modern freight trains. Explain why unit trains are more efficient than mixed freight trains.
+      - n: 1b
+        text: Name one Class I or regional railroad. Explain what major cities it serves, the locations of major terminals, service facilities and crew change points, and the major commodities it carries.
+      - n: 1c
+        text: Using models or pictures, identify 10 types of railroad freight or passenger cars. Explain the purpose of each type of car.
+      - n: 1d
+        text: Explain how a modern diesel or electric locomotive develops power. Explain the terms dynamic braking and radial steering trucks.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Explain the purpose and formation of Amtrak. Explain, by the use of a timetable, a plan for making a trip by rail between two cities at least 500 miles apart. List the times of departure and arrival at your destination, the train number and name, and the type of service you want.
+      - n: 2b
+        text: List and explain the various forms of public/mass transit using rail.
+  - n: "3"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 3a
+        text: Name four departments of a railroad company. Describe what each department does.
+      - n: 3b
+        text: Tell about the opportunities in railroading that interest you most and why.
+      - n: 3c
+        text: Name four rail support industries. Describe the function of each one.
+      - n: 3d
+        text: With your parent or guardian’s and counselor’s approval, interview someone employed in the rail industry. Learn what that person does and how this person became interested in railroading. Find out what type of schooling and training are required for this position.
+  - n: "4"
+    text: "Do the following:"
+    children:
+      - n: 4a
+        text: Explain the purpose of Operation Lifesaver and its mission.
+      - n: 4b
+        text: List 9 track basic safety tips to remember when you are around a railroad track.
+      - n: 4c
+        text: List 9 safety considerations that should be followed when walking near a railroad track.
+      - n: 4d
+        text: Tell your counselor what a driver can do to safely operate near tracks.
+      - n: 4e
+        text: Explain safety precautions when using a light rail or commuter train.
+  - n: "5"
+    text: "Explain the appearance and meaning of the following rail signs and signals:"
+    children:
+      - n: 5a
+        text: Passive signs and active signs.
+      - n: 5b
+        text: Devices at the crossing (flashing red lights – with or without bells, flashing red lights and gates, and cantilever flashing lights)
+      - n: 5c
+        text: Markings on the road (pavement markings and stop bars)
+      - n: 5d
+        text: Signs before the crossing (advance warning sign, advance warning sign for side streets, no train horn sign, and low ground clearance grade crossing sign)
+      - n: 5e
+        text: Signs along the railroad property (no trespassing sign)
+      - n: 5f
+        text: Signs at the crossing (crossbuck sign, emergency notification system sign, multiple track sign, stop sign, and yield sign).
+  - n: "6"
+    text: "Do EACH of the following:"
+    children:
+      - n: 6a
+        text: Explain how railroad signals operate and show two basic signal types using color or configuration.
+      - n: 6b
+        text: Explain the meaning of three horn signals.
+      - n: 6c
+        text: Describe a way to signal a train for an emergency stop.
+      - n: 6d
+        text: Explain the use and function of the EOTD (end-of-train device), or FRED (flashing rear end device), used on the last car of most freight trains.
+  - n: "7"
+    text: "Select ONE of the following special-interest options:"
+    choose: 1
+    options:
+      - key: A
+        name: "Model Railroading With your parent or guardian’s and counselor’s approval, do TWO of the following:"
+      - key: B
+        name: "Railfanning With your parent or guardian’s and counselor’s approval, do TWO of the following:"
+    children:
+      - n: 7a-optA
+        option: A
+        text: "Draw a layout of your own model railroad or one that could be built in your home. Design a point-to-point track or loop with different routings. Include one of the following: turnaround or terminal or yard or siding."
+      - n: 7b-optA
+        option: A
+        text: Build one model railroad car kit or one locomotive kit.
+      - n: 7c-optA
+        option: A
+        text: Name the scale of four popular model railroad gauges. Identify the scale of four model cars or locomotives.
+      - n: 7d-optA
+        option: A
+        text: Locate the website of four model railroad–related manufacturers or magazine publishers. Print information on their products and services and discuss the information with your counselor.
+      - n: 7e-optA
+        option: A
+        text: Build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it on your layout or diorama, and make the surrounding area on the diorama scenic.
+      - n: 7f-optA
+        option: A
+        text: Alone or with others, build a model railroad or modular layout including ballast and scenery. Make electrical connections and operate a train. Describe what you enjoyed most.
+      - n: 7g-optA
+        option: A
+        text: Participate in a switching contest on a timesaver layout and record your time.
+      - n: 7h-optA
+        option: A
+        text: Explain the difference between powering and controlling a model railroad by using direct current, and powering and controlling a model railroad using digital command control.
+      - n: 7a-optB
+        option: B
+        text: Visit a railroad museum, historical display, or a prototype railroadsponsored public event. With permission, photograph, digitally record, or sketch items of interest. Explain what you saw and describe your photos, sketches, or video.
+      - n: 7b-optB
+        option: B
+        text: Purchase tickets and ride a scenic or historic railroad. Under supervision, photograph the equipment and discuss with your counselor the historic significance of the operation.
+      - n: 7c-optB
+        option: B
+        text: Locate the website of four rail historical groups, then find information on the history of the rail preservation operations and purpose of each group. Talk with a member of one of the groups and find out how you might help.
+      - n: 7d-optB
+        option: B
+        text: Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two intermediate points. Purchase the tickets and make the trip. Explain to your counselor what you saw.

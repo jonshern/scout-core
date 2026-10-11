@@ -1,0 +1,122 @@
+id: badge:metalwork
+name: Metalwork
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/metalwork/
+worksheet_url: http://usscouts.org/mb/worksheets/Metalwork.pdf
+requirements:
+  - n: "1"
+    text: Read the safety rules for metalwork. Discuss how to be safe while working with metal. Discuss with your counselor the additional safety rules that apply to the metalwork option you choose for requirement 5.
+  - n: "2"
+    text: "Explain the following terms: native metal, malleable, metallurgy, alloy, nonferrous, ferrous. Then do the following:"
+    children:
+      - n: 2a
+        text: Name two nonferrous alloys used by pre–Iron Age metalworkers. Name the metals that are combined to form these alloys.
+      - n: 2b
+        text: Name three ferrous alloys used by modern metalworkers.
+      - n: 2c
+        text: Describe how to work-harden a metal.
+      - n: 2d
+        text: Describe how to anneal a nonferrous and a ferrous metal.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Work-harden a piece of 26- or 28-gauge sheet brass or sheet copper. Put a 45-degree bend in the metal, then heavily peen the area along the bend line to work-harden it. Note the amount of effort that is required to overcome the yield point in this unworked piece of metal.
+      - n: 3b
+        text: Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to remove the 45-degree bend. Note the amount of effort that is required to overcome the yield point.
+      - n: 3c
+        text: Make a temper color index from a flat piece of steel. Using hand tools, make and temper a center punch of medium-carbon or high-carbon steel.
+  - n: "4"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 4a
+        text: Identify three career opportunities that would use skills and knowledge in metalworking. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
+      - n: 4b
+        text: Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
+  - n: "5"
+    text: After completing the first four requirements, complete at least ONE of the options listed below.
+    choose: 1
+    options:
+      - key: "1"
+        name: Sheet Metal Mechanic/Tinsmith
+      - key: "2"
+        name: Silversmith
+      - key: "3"
+        name: Founder
+      - key: "4"
+        name: Blacksmith
+    children:
+      - n: 5a-opt1
+        option: "1"
+        text: Name and describe the use of the basic sheet metalworking tools.
+      - n: 5b-opt1
+        option: "1"
+        text: Create a sketch of two objects to make from sheet metal. Include each component’s dimensions on your sketch, which need not be to scale.
+      - n: 5c-opt1
+        option: "1"
+        text: Make two objects out of 24- or 26-gauge sheet metal. Use patterns either provided by your counselor or made by you and approved by your counselor. Construct these objects using a metal that is appropriate to the object’s ultimate purpose, and using cutting, bending, edging, and either soldering or brazing.
+        children:
+          - n: 5c-opt11
+            text: One object also must include at least one riveted component.
+          - n: 5c-opt12
+            text: If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation.
+      - n: 5a-opt2
+        option: "2"
+        text: Name and describe the use of a silversmith’s basic tools.
+      - n: 5b-opt2
+        option: "2"
+        text: Create a sketch of two objects to make from sheet silver. Include each component’s dimensions on your sketch, which need not be to scale.
+      - n: 5c-opt2
+        option: "2"
+        text: Make two objects out of 18- or 20-gauge sheet copper. Use patterns either provided by your counselor or made by you and approved by your counselor. Both objects must include a soldered joint. If you have prior silversmithing experience, you may substitute sterling silver, nickel silver, or lead-free pewter.
+        children:
+          - n: 5c-opt21
+            text: At least one object must include a sawed component you have made yourself.
+          - n: 5c-opt22
+            text: At least one object must include a sunken part you have made yourself.
+          - n: 5c-opt23
+            text: Clean and polish your objects.
+      - n: 5a-opt3
+        option: "3"
+        text: Name and describe the use of the basic parts of a two-piece mold. Name at least three different types of molds.
+      - n: 5b-opt3
+        option: "3"
+        text: Create a sketch of two objects to cast in metal. Include each component’s dimensions on your sketch, which need not be to scale.
+      - n: 5c-opt3
+        option: "3"
+        text: Make two molds, one using a pattern provided by your counselor and another one you have made yourself that has been approved by your counselor. Position the pouring gate and vents yourself. Do not use copyrighted materials as patterns.
+        children:
+          - n: 5c-opt31
+            text: Using lead-free pewter, make a casting using a mold provided by your counselor.
+          - n: 5c-opt32
+            text: Using lead-free pewter, make a casting using the mold that you have made.
+      - n: 5a-opt4
+        option: "4"
+        text: Name and describe the use of a blacksmith’s basic tools.
+      - n: 5b-opt4
+        option: "4"
+        text: Make a sketch of two objects to hot-forge. Include each component’s dimensions on your sketch, which need not be to scale.
+      - n: 5c-opt4
+        option: "4"
+        text: "Using low-carbon steel at least 1/4 inch thick, perform the following exercises:"
+        children:
+          - n: 5c-opt41
+            text: Draw out by forging a taper.
+          - n: 5c-opt42
+            text: Use the horn of the anvil by forging a U-shaped bend.
+          - n: 5c-opt43
+            text: Form a decorative twist in a piece of square steel.
+          - n: 5c-opt44
+            text: Use the edge of the anvil to bend metal by forging an L-shaped bend.
+      - n: 5d-opt4
+        option: "4"
+        text: Using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging. Be sure you have your counselor’s approval before you begin.
+        children:
+          - n: 5d-opt41
+            text: Include a decorative twist on one object.
+          - n: 5d-opt42
+            text: Include a hammer-riveted joint in one object.
+          - n: 5d-opt43
+            text: Preserve your work from oxidation.

@@ -1,0 +1,60 @@
+id: badge:wilderness-survival
+name: Wilderness Survival
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/wilderness-survival/
+worksheet_url: http://usscouts.org/mb/worksheets/Wilderness-Survival.pdf
+notes:
+  - "Note: Rewritten effective January 1, 2026. The usscouts worksheet PDF/Word file is still the older 2018 version, so use the official requirements link for the current rules."
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: "Show or explain first aid for, and prevention of, injuries and conditions that could occur in backcountry settings: dehydration, heatstroke, hypothermia, shock, blisters, eye injuries, ankle and knee sprains, bug bites (chiggers, ticks, mosquitoes, biting gnats), bee stings, spider bites, scorpion sting, bite of a wild mammal, and bite of a venomous snake."
+      - n: 1b
+        text: Explain how the Scout Basic Essentials help address wilderness hazards and form a basic survival kit.
+      - n: 1c
+        text: Explain how making a trip plan helps prevent wilderness survival situations.
+  - n: "2"
+    text: Explain the importance of each of the seven priorities of survival in a wilderness location.
+  - n: "3"
+    text: Describe ways to avoid panic and maintain a high level of morale when lost, and explain why this is important.
+  - n: "4"
+    text: Put together a personal first aid kit and a survival kit, and show how each item is used.
+  - n: "5"
+    text: "Do the following:"
+    children:
+      - n: 5a
+        text: Describe the steps to survive in cold/snowy, wet, hot/dry, windy, and water conditions.
+      - n: 5b
+        text: Show the proper clothing to wear in extremely hot and cold weather and in wet conditions.
+      - n: 5c
+        text: Explain how to protect yourself from bears and raccoons.
+      - n: 5d
+        text: Describe how to build or find shelters in a forest or in snow.
+      - n: 5e
+        text: Improvise a natural shelter using low-impact techniques, and spend a night in it.
+  - n: "6"
+    text: Using three different methods (other than matches), build and light three fires.
+  - n: "7"
+    text: "Do the following:"
+    children:
+      - n: 7a
+        text: Explain and show how to signal ground, airborne, or water search teams.
+      - n: 7b
+        text: Demonstrate how to use a signal mirror.
+      - n: 7c
+        text: Describe from memory five ground-to-air signals and tell what they mean.
+  - n: "8"
+    text: Demonstrate three ways to treat water found in the outdoors to prepare it for drinking.
+  - n: "9"
+    text: Explain why it usually is unwise to eat edible wild plants or wildlife in a wilderness survival situation.
+  - n: "10"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 10a
+        text: Explore careers related to this merit badge (training/education, costs, job prospects, salary, duties, advancement).
+      - n: 10b
+        text: Explore using these skills as a hobby or for volunteering (training, expenses, organizations, short- and long-term goals).

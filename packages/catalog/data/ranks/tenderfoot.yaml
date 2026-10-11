@@ -1,0 +1,12 @@
+id: rank:tenderfoot
+name: Tenderfoot
+edition: 2026
+summary: Short summaries; check the Scouts BSA Handbook for exact wording.
+official_url: https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/
+requirements:
+  - n: "1"
+    text: Camping, cooking, knots and first aid basics
+  - n: "2"
+    text: Fitness test and 30-day improvement
+  - n: "3"
+    text: Scoutmaster conference and board of review

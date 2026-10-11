@@ -1,0 +1,10 @@
+id: rank:scout
+name: Scout
+edition: 2026
+summary: Short summaries; check the Scouts BSA Handbook for exact wording.
+official_url: https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/
+requirements:
+  - n: "1"
+    text: Joining requirements, Scout Oath, Law, motto, slogan, Outdoor Code
+  - n: "2"
+    text: Scoutmaster conference

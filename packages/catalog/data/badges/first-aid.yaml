@@ -1,0 +1,237 @@
+id: badge:first-aid
+name: First Aid
+edition: 2026
+eagle_required: true
+official_url: https://www.scouting.org/merit-badges/first-aid/
+worksheet_url: http://usscouts.org/mb/worksheets/First-Aid.pdf
+requirements:
+  - n: "1"
+    text: "Handling a First Aid Emergency. Do the following:"
+    children:
+      - n: 1a
+        text: Explain the steps necessary to assess and handle a first aid emergency, including a safety evaluation of the scene.
+      - n: 1b
+        text: Tell how you would obtain emergency medical assistance from your home and from a remote location on a wilderness camping trip.
+      - n: 1c
+        text: Demonstrate the precautions you must take to reduce the risk of transmitting an infection between you and the victim while administering first aid, including the safe disposal of used first aid supplies.
+      - n: 1d
+        text: Demonstrate evaluation of and management of a patient’s airway and breathing.
+      - n: 1e
+        text: Demonstrate a thorough examination of an accident victim.
+      - n: 1f
+        text: Discuss why shock is an emergency.
+      - n: 1g
+        text: Define the term triage and describe examples of triage situations that you may encounter.
+  - n: "2"
+    text: "Preparing for First Aid Emergencies. Do the following:"
+    children:
+      - n: 2a
+        text: Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of the form including information on immunizations, allergies, medications, health history, and medical examinations to providing first aid at Scouting events.
+      - n: 2b
+        text: "Using checklists provided in the First Aid pamphlet or ones approved by your counselor, do the following:"
+        children:
+          - n: 2b1
+            text: Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor.
+          - n: 2b2
+            text: With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
+  - n: "3"
+    text: "Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds:"
+    children:
+      - n: 3a
+        text: Closed wounds, such as a bruise (contusion) or a hematoma
+      - n: 3b
+        text: Superficial, partial thickness, and full thickness thermal (heat) burns or scalds
+      - n: 3c
+        text: Chemical burns
+      - n: 3d
+        text: Electrical burns
+      - n: 3e
+        text: Sunburn
+      - n: 3f
+        text: Snow blindness
+      - n: 3g
+        text: Immersion foot, frostnip, frostbite, and ice burns
+      - n: 3h
+        text: Abrasions, such as chafing and rope burns
+      - n: 3i
+        text: Blisters on the hands, feet, buttocks, and shoulders
+      - n: 3j
+        text: Puncture wounds from splinters, rope splinters, nails, and fish hooks
+      - n: 3k
+        text: Rash from poisonous plants
+      - n: 3l
+        text: Bug bites of chiggers, ticks, mosquitoes, and biting gnats
+      - n: 3m
+        text: Bee stings
+      - n: 3n
+        text: Bites of spiders
+      - n: 3o
+        text: Sting of a scorpion
+      - n: 3p
+        text: Bite of a pet or wild mammal or human
+      - n: 3q
+        text: Bite of a venomous snake
+  - n: "4"
+    text: "Bleeding Wounds. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds:"
+    children:
+      - n: 4a
+        text: A nosebleed
+      - n: 4b
+        text: An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration)
+      - n: 4c
+        text: An open wound with severe bleeding such as a deep cut on an arm or leg
+      - n: 4d
+        text: Explain when it is appropriate and is not appropriate to use one or more tourniquets. List some of the benefits and dangers of using a tourniquet. Demonstrate the application of a tourniquet without tightening it
+  - n: "5"
+    text: "Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing:"
+    children:
+      - n: 5a
+        text: Choking
+      - n: 5b
+        text: Asthmatic attack
+      - n: 5c
+        text: Anaphylaxis from an insect bite or sting or from food or product allergy
+      - n: 5d
+        text: Inhalation injuries
+      - n: 5e
+        text: Altitude sickness
+  - n: "6"
+    text: "Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing loss of consciousness:"
+    children:
+      - n: 6a
+        text: Fainting
+      - n: 6b
+        text: Hypoglycemia
+      - n: 6c
+        text: Seizure
+      - n: 6d
+        text: Drug overdose and alcohol poisoning
+      - n: 6e
+        text: Underwater hypoxic blackout
+      - n: 6f
+        text: Cold water shock and drowning
+      - n: 6g
+        text: Lightning strike and electric shock
+  - n: "7"
+    text: "Heart Attack. Do the following:"
+    children:
+      - n: 7a
+        text: Explain what a heart attack is.
+      - n: 7b
+        text: Describe the symptoms and signs of a heart attack and first aid for this condition.
+      - n: 7c
+        text: Describe the conditions that must exist before performing CPR on a person.
+      - n: 7d
+        text: Demonstrate proper CPR technique using a training device approved by your counselor.
+      - n: 7e
+        text: Explain the use of an automated external defibrillator (AED).
+      - n: 7f
+        text: Demonstrate or simulate the proper use of an AED, using an AED training device if available.
+      - n: 7g
+        text: Identify the typical location(s) of one or more AED(s) at public facilities in your community, such as, your school, place of worship, unit meeting place, sports facilities, and/or camp or by using a smart phone app. Discuss the reasons for choosing locations like these.
+  - n: "8"
+    text: "Muscle and Bone Injuries. Do the following:"
+    children:
+      - n: 8a
+        text: Explain the similarities and differences in a strain, a muscle tear, a tendon rupture, a sprain, a dislocation, a simple fracture, and a compound fracture.
+      - n: 8b
+        text: Describe the symptoms and signs of and first aid for a muscle strain, a muscle tear, and a tendon rupture.
+      - n: 8c
+        text: Describe the symptoms and signs of, and potential complications of, a sprain, a fracture, and a dislocation.
+      - n: 8d
+        text: "Demonstrate bandages for these injuries:"
+        children:
+          - n: 8d1
+            text: Arm slings for forearm or upper arm or collarbone fractures
+          - n: 8d2
+            text: Elastic wrap and cravat bandages for ankle sprain
+          - n: 8d3
+            text: Elastic wrap and cravat bandages for wrist sprain or hand injury
+      - n: 8e
+        text: "Demonstrate the proper procedures for handling and splinting of suspected closed or open fractures or dislocations of the:"
+        children:
+          - n: "8e1"
+            text: Finger and toe
+          - n: "8e2"
+            text: Forearm or wrist
+          - n: "8e3"
+            text: Upper leg
+          - n: "8e4"
+            text: Lower leg or ankle
+  - n: "9"
+    text: "Head and Spine Injuries. Do the following:"
+    children:
+      - n: 9a
+        text: Describe the symptoms and signs of, relationships between, possible complications of, and prevention of head, neck, and back injuries.
+      - n: 9b
+        text: Describe the symptoms and signs of and first aid for a concussion.
+      - n: 9c
+        text: Demonstrate first aid for an open head wound with a triangular or other bandage.
+      - n: 9d
+        text: Demonstrate first aid for someone with a suspected neck or back injury.
+  - n: "10"
+    text: "Moving a Patient. Do the following:"
+    children:
+      - n: 10a
+        text: Describe the conditions under which an injured person should and should not be moved.
+      - n: 10b
+        text: If a sick or an injured person must be moved, tell how you would decide the best method. Demonstrate these methods.
+      - n: 10c
+        text: By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room.
+      - n: 10d
+        text: By yourself and with a partner, demonstrate how to transport a person with a sprained ankle for at least 25 yards.
+      - n: 10e
+        text: With helpers under your supervision, improvise a stretcher and move a presumably unconscious person for at least 25 yards.
+  - n: "11"
+    text: "Heat- and Cold-Related Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions associated with exertion and/or heat or cold exposure:"
+    children:
+      - n: 11a
+        text: Dehydration and over-hydration
+      - n: 11b
+        text: Heat cramps and muscle pain after exertion
+      - n: 11c
+        text: Heat exhaustion
+      - n: 11d
+        text: Heat stroke
+      - n: 11e
+        text: Chest pains associated with cold exposure
+      - n: 11f
+        text: Hypothermia
+  - n: "12"
+    text: "Mental Health Conditions. Describe the following:"
+    children:
+      - n: 12a
+        text: Reactions associated with at least three stressful situations, such as mountain backpacking, rappelling, a ropes course, speaking before an audience, making a phone call to an adult, taking a swim test, missing home, lighting a match, trying out for a sports team, meeting someone for the first time, or other stressful circumstances.
+      - n: 12b
+        text: The actions that you and others should take to prepare for and manage these situations.
+      - n: 12c
+        text: The indications that someone might be a danger to themselves or others.
+      - n: 12d
+        text: The actions that you should take if you suspect that someone might be a danger to themselves or others.
+  - n: "13"
+    text: "Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions:"
+    children:
+      - n: 13a
+        text: Object in the eye
+      - n: 13b
+        text: Broken, chipped, loosened, or knocked out tooth
+      - n: 13c
+        text: Vomiting and diarrhea associated with food poisoning
+      - n: 13d
+        text: Abdominal pain
+      - n: 13e
+        text: Stroke
+  - n: "14"
+    text: With guidance from your counselor, develop a plan to teach a first-aid skill or topic using the EDGE method. Discuss your skill, topic, and plan with your counselor, and then teach your skill or topic to your family or to one or more Scouts.
+  - n: "15"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 15a
+        text: Visit an emergency medical station house or training center in person. From the medical first responders that you meet during your visit, learn about how they serve their community and about their careers. Discuss with your counselor what you learned during your tour and interviews.
+      - n: 15b
+        text: Interview an emergency medical services professional about their work. Learn about how they chose this career and about their duties. Discuss what you learned with your counselor and whether you might be interested in this career.
+      - n: 15c
+        text: Identify three career opportunities that would use skills and knowledge in emergency medical services. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
+      - n: 15d
+        text: Identify how you might use the skills and knowledge in the field of emergency medical services to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.

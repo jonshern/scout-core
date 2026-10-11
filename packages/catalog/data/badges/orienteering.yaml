@@ -1,0 +1,72 @@
+id: badge:orienteering
+name: Orienteering
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/orienteering/
+worksheet_url: http://usscouts.org/mb/worksheets/Orienteering.pdf
+requirements:
+  - n: "1"
+    text: "Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters, snakebite, insect stings, tick bites, heat and cold reactions (sunburn, heatstroke, heat exhaustion, hypothermia), dehydration. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area."
+  - n: "2"
+    text: Explain what orienteering is.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Explain how a compass works. Describe the features of an orienteering compass.
+      - n: 3b
+        text: In the field, show how to take a compass bearing and follow it.
+  - n: "4"
+    text: "Do the following:"
+    children:
+      - n: 4a
+        text: Explain how a topographic map shows terrain features. Point out and name five terrain features on a map and in the field.
+      - n: 4b
+        text: Point out and name 10 symbols on a topographic map.
+      - n: 4c
+        text: Explain the meaning of declination. Tell why you must consider declination when using map and compass together.
+      - n: 4d
+        text: Show a topographic map with magnetic north-south lines.
+      - n: 4e
+        text: Show how to measure distances on a map using an orienteering compass.
+      - n: 4f
+        text: Show how to orient a map using a compass.
+  - n: "5"
+    text: Set up a 100-meter pace course. Determine your walking and running pace for 100 meters. Tell why it is important to pace-count.
+  - n: "6"
+    text: "Do the following:"
+    children:
+      - n: 6a
+        text: Identify 20 international control description symbols. Tell the meaning of each symbol.
+      - n: 6b
+        text: Show a control description sheet and explain the information provided.
+      - n: 6c
+        text: "Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, rough versus fine orienteering."
+  - n: "7"
+    text: "Do the following:"
+    children:
+      - n: 7a
+        text: Take part in three orienteering events. One of these must be a cross-country course.*
+      - n: 7b
+        text: After each event, write a report with
+        children:
+          - n: 7b1
+            text: a copy of the master map and control description sheet,
+          - n: 7b2
+            text: a copy of the route you took on the course,
+          - n: 7b3
+            text: a discussion of how you could improve your time between control points, and
+          - n: 7b4
+            text: a list of your major weaknesses on this course. Describe what you could do to improve.
+  - n: "8"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 8a
+        text: Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare the master map and control description sheet.
+      - n: 8b
+        text: Set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes. Set point values for each control. Prepare the master map and control description sheet.
+  - n: "9"
+    text: Act as an official during an orienteering event. This may be during the running of the course you set up for requirement 8.
+  - n: "10"
+    text: "Teach orienteering techniques to your patrol, troop, or crew. * Note to the counselor: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system. Requirement 7(a) can be completed by pairs or groups of Scouts."

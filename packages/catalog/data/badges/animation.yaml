@@ -1,0 +1,46 @@
+id: badge:animation
+name: Animation
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/animation/
+worksheet_url: http://usscouts.org/mb/worksheets/Animation.pdf
+requirements:
+  - n: "1"
+    text: "General Knowledge. Do the following:"
+    children:
+      - n: 1a
+        text: In your own words, describe to your counselor what animation is.
+      - n: 1b
+        text: Discuss with your counselor a brief history of animation.
+  - n: "2"
+    text: "Principles of Animation. Choose five of the following 12 principles of animation, and discuss how each one makes an animation appear more believable: squash and stretch, anticipation, staging, straight-ahead action and pose to pose, follow through and overlapping action, slow in and slow out, arcs, secondary action, timing, exaggeration, solid drawing, appeal."
+  - n: "3"
+    text: "Projects. With your counselor’s approval, choose two animation techniques and do the following for each:"
+    children:
+      - n: 3a
+        text: Technique 1
+        children:
+          - n: 3a1
+            text: Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program.
+          - n: 3a2
+            text: Create the animations.
+          - n: 3a3
+            text: Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
+      - n: 3b
+        text: Technique 2
+        children:
+          - n: 3b1
+            text: Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program.
+          - n: 3b2
+            text: Create the animations.
+          - n: 3b3
+            text: Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
+  - n: "4"
+    text: "Animation in our World. Do the following:"
+    children:
+      - n: 4a
+        text: Tour an animation studio or a business where animation is used, either in person, via video, or via the internet. Share what you have learned with your counselor.
+      - n: 4b
+        text: Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive.
+  - n: "5"
+    text: Careers. Learn about three career opportunities in animation. Pick one and find out about the education, training, and experience required for this profession. Discuss your findings with your counselor. Explain why this profession might interest you.

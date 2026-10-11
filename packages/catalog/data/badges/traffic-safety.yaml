@@ -1,0 +1,87 @@
+id: badge:traffic-safety
+name: Traffic Safety
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/traffic-safety/
+worksheet_url: http://usscouts.org/mb/worksheets/Traffic-Safety.pdf
+requirements:
+  - n: "1"
+    updated_2026: true
+    text: "Preventing Impaired Driving. Do the following:"
+    children:
+      - n: 1a
+        text: Explain why a distracted driver must not operate a motor vehicle. List five common distractions, explain how driver distractions contribute to traffic accidents, and tell how drivers can minimize distractions.
+      - n: 1b
+        text: Explain why a driver impaired by alcohol, drugs, or other substances must not operate a motor vehicle. Describe how alcohol, cold medications, and prescription and illegal drugs affect driving abilities. For the state where you live, find out what is the legal blood alcohol concentration and what are the consequences for driving while intoxicated or driving under the influence. Find out what the open-container law is in your state.
+      - n: 1c
+        text: Explain why a fatigued driver must not operate a motor vehicle. Describe how drivers must plan to be alert for safely transporting families, friends, Scouts, and themselves.
+      - n: 1d
+        text: Describe mistakes that new drivers make, how those mistakes increase their risk of collisions, how drivers can reduce this risk, and how driving behavior affects automobile insurance rates.
+  - n: "2"
+    updated_2026: true
+    text: "Vehicle Safety. Do the following:"
+    children:
+      - n: 2a
+        text: Demonstrate how to wear a lap and shoulder belt properly. Explain why it is important for the driver and all passengers, including children sitting in age-appropriate seats, to always wear their seat belts.
+      - n: 2b
+        text: List five safety features found in motor vehicles besides occupant restraint systems. Describe each safety feature, how each works, and how each contributes to safety.
+  - n: "3"
+    updated_2026: true
+    text: "Auto Maintenance and Safety Checkups. With adult supervision and using a vehicle that you have access to, do the following:"
+    children:
+      - n: 3a
+        text: Demonstrate that all driving lights and signaling lights are clear and operational. Show where the switches are for these lights. Explain how drivers use lights to drive safely and courteously and to communicate with other drivers.
+      - n: 3b
+        text: Explain issues that might affect the driver's ability to see through the front, rear, and side windows. Demonstrate with a smear-and-clear test if the windshield wiper blades will clear the windshield completely or need to be replaced. Describe instances in good and bad weather when windshield wipers are important to safe driving.
+      - n: 3c
+        text: Demonstrate how to find the vehicle’s recommended tire pressures, how to check tire pressures, and how to check for adequate tire tread depth. Explain why proper tire pressure and tread depth are important to traction, stopping distances, tire wear, and fuel economy.
+      - n: 3d
+        text: Check the vehicle for tools needed to change a flat tire or to use tire sealant to fix a puncture. Demonstrate you know how to change a flat tire and how to use tire sealant.
+      - n: 3e
+        text: "In a location away from traffic hazards, mark off the reaction distances and braking distances that a car will travel as it makes an emergency stop at 25, 55, and 70 miles per hour on level dry and level wet pavement. Discuss how these distances change for normal and impaired drivers, for day and night driving, and for weather conditions. Note: Use the graphics template in the Traffic Safety merit badge pamphlet or one approved by your counselor to set up this demonstration."
+  - n: "4"
+    updated_2026: true
+    text: "Traffic Safety and the Law. Do the following:"
+    children:
+      - n: 4a
+        text: Describe at least three examples of traffic laws that apply to motor vehicle drivers and to bicyclists.
+      - n: 4b
+        text: Explain procedures and etiquette a driver should follow if a law enforcement officer stops their vehicle.
+      - n: 4c
+        text: Explain procedures that drivers should follow if they are involved in a car accident.
+      - n: 4d
+        text: Name the three documents that drivers are required by law to carry whenever they operate a motor vehicle.
+  - n: "5"
+    updated_2026: true
+    text: "Road Designs and Signs. Do the following:"
+    children:
+      - n: 5a
+        text: Explain how road designs for intersections, medians, and road shoulders contribute to traffic safety. Discuss safety features of interstate highways.
+      - n: 5b
+        text: Explain how color and shape help drivers recognize and understand the information presented on traffic and roadway signs. Explain the purpose of different types of signs, signals, and pavement markings.
+  - n: "6"
+    updated_2026: true
+    text: "Sharing the Road. Do the following:"
+    children:
+      - n: 6a
+        text: Describe the difference in nighttime visibility between a properly lit bicycle and rider (or a pedestrian) wearing reflective material and a bicycle and rider with no lights (or a pedestrian) dressed in dark clothing without reflective material.
+      - n: 6b
+        text: Name at least four safety measures that pedestrians, including hikers, should follow as they walk along or across streets or roadways.
+      - n: 6c
+        text: Name at least four safety measures that drivers of motor vehicles should follow if they approach a school bus making its stops at pick-up and drop-off locations.
+      - n: 6d
+        text: Discuss the risks associated with blind spots on cars and trucks and how drivers can prevent lane change crashes.
+  - n: "7"
+    updated_2026: true
+    text: "Traffic, Your Community, and You. Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 7a
+        text: Interview a traffic law enforcement officer or a traffic safety professional in your community to identify what three traffic safety problems they are most concerned about. Discuss with your counselor possible ways to solve one of those problems.
+      - n: 7b
+        text: Write a personal traffic safety pledge, addressing three of your most concerning issues relating to traffic safety. Show your pledge to your counselor and discuss your commitment to traffic safety.
+      - n: 7c
+        text: Initiate and organize an activity or event to demonstrate the importance of traffic safety.
+  - n: "8"
+    updated_2026: true
+    text: Careers. Explore careers related to traffic safety. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include-with your parent or guardian’s permission-an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.

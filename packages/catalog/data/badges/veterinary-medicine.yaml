@@ -1,0 +1,67 @@
+id: badge:veterinary-medicine
+name: Veterinary Medicine
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/veterinary-medicine/
+worksheet_url: http://usscouts.org/mb/worksheets/Veterinary-Medicine.pdf
+requirements:
+  - n: "1"
+    text: "Discuss with your counselor the roles a veterinarian plays in the following:"
+    children:
+      - n: 1a
+        text: Companion or small animal medicine, and equine medicine
+      - n: 1b
+        text: Food animal or large animal medicine
+      - n: 1c
+        text: Exotic animal medicine
+      - n: 1d
+        text: Marine animal medicine (mammal and fish)
+      - n: 1e
+        text: Poultry medicine
+      - n: 1f
+        text: Wildlife medicine and aquaculture medicine
+  - n: "2"
+    text: "Discuss with your counselor the roles a veterinarian plays in the following:"
+    children:
+      - n: 2a
+        text: Public health medicine and zoonotic disease surveillance and control
+      - n: 2b
+        text: The military
+      - n: 2c
+        text: Food safety and inspection
+      - n: 2d
+        text: Laboratory animal medicine and research
+      - n: 2e
+        text: Teaching and government
+  - n: "3"
+    updated_2026: true
+    text: Describe the training required to become a veterinarian. Where is the veterinary medical college in your state or nearest to you? Describe the prerequisites for applying to veterinary school.
+  - n: "4"
+    updated_2026: true
+    text: Tell your counselor what a registered veterinary technician (R.T.V.) or animal health technician (A. H.T.) is. Describe the training required to become an R.V.T. or A.H.T. Where is the school or facility for R.V.T. or A.H.T training in your state or nearest to you? Describe the role an R.V.T. or A.H.T. would play in assisting a veterinarian working in three of the practice types listed in requirement 1.
+  - n: "5"
+    text: Discuss with your counselor the role a veterinarian plays in the human-animal bond.
+  - n: "6"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 6a
+        updated_2026: true
+        text: Visit a veterinary clinic, hospital, or veterinary referral teaching hospital that does work in one of the practices listed in requirement 1. Spend as much time as you can observing the veterinarians and their staff. Prepare a presentation on what you observed and learned at the facility and share with your counselor.
+      - n: 6b
+        updated_2026: true
+        text: Spend as much time as possible with a veterinarian who works in one of the fields listed in requirement 2. Learn what special training beyond veterinary medical school may have been required for that position. Learn about any special or unusual activities required of this position. Prepare a presentation and share what you have learned about this field of veterinary medicine with your counselor. Include how this field serves the needs of the general public.
+  - n: "7"
+    updated_2026: true
+    text: "Select one career from any of the lists in requirements 1 or 2. Discuss the following with your counselor:"
+    children:
+      - n: 7a
+        text: Why would one choose this particular career field?
+      - n: 7b
+        text: What would you like about this job?
+      - n: 7c
+        text: What would be the biggest challenges in doing this job?
+      - n: 7d
+        text: What to you has been the most surprising aspect of this job?
+      - n: 7e
+        text: What continuing education requirements are required to maintain certification for this job?

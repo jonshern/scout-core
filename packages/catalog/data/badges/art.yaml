@@ -1,0 +1,55 @@
+id: badge:art
+name: Art
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/art/
+worksheet_url: http://usscouts.org/mb/worksheets/Art.pdf
+requirements:
+  - n: "1"
+    text: "Discuss the following with your counselor:"
+    children:
+      - n: 1a
+        text: What art is and what some of the different forms of art are
+      - n: 1b
+        text: The importance of art to humankind
+      - n: 1c
+        text: What art means to you and how art can make you feel
+  - n: "2"
+    text: "Discuss with your counselor the following terms and elements of art: line, value, shape, form, space, color, and texture. Show examples of each element."
+  - n: "3"
+    text: "Discuss with your counselor the six principles of design: rhythm, balance, proportion, variety, emphasis, and unity."
+  - n: "4"
+    text: "Render a subject of your choice in FOUR of these ways:"
+    children:
+      - n: 4a
+        text: Pen and ink
+      - n: 4f
+        text: Tempera
+      - n: 4b
+        text: Watercolors
+      - n: 4g
+        text: Acrylics
+      - n: 4c
+        text: Pencil
+      - n: 4h
+        text: Charcoal
+      - n: 4d
+        text: Pastels
+      - n: 4i
+        text: Computer drawing or painting
+      - n: 4e
+        text: Oil paints
+  - n: "5"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 5a
+        text: Design something useful. Make a sketch or model of your design. With your counselor’s approval, create a promotional piece for the item using a picture or pictures.
+      - n: 5b
+        text: Tell a story with a picture or pictures or using a 3-D rendering.
+      - n: 5c
+        text: Design a logo. Share your design with your counselor and explain the significance of your logo. Then, with your parent or guardian’s permission and your counselor’s approval, put your logo on Scout equipment, furniture, ceramics, or fabric.
+  - n: "6"
+    text: With your parent or guardian’s permission and your counselor’s approval, visit a museum, art exhibit, art gallery, artists’ co-op, or artist’s workshop. Find out about the art displayed or created there. Discuss what you learn with your counselor.
+  - n: "7"
+    text: Find out about three career opportunities in art. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.

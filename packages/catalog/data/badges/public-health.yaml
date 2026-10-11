@@ -1,0 +1,78 @@
+id: badge:public-health
+name: Public Health
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/public-health/
+worksheet_url: http://usscouts.org/mb/worksheets/Public-Health.pdf
+requirements:
+  - n: "1"
+    updated_2026: true
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain what public health is.
+      - n: 1b
+        text: Explain how Escherichia coli (E. coli), tetanus, AIDS, encephalitis, salmonellosis, Lyme disease, and coronavirus (COVID-19) are contracted.
+      - n: 1c
+        text: "Choose any four of the following diseases and explain how each one is contracted and possibly prevented: gonorrhea, West Nile virus, botulism, influenza, syphilis, hepatitis, emphysema, meningitis, herpes, or lead poisoning."
+      - n: 1d
+        text: For all 10 diseases from (c), explain the type or form of the disease (viral, bacterial, environmental, toxin), any possible vectors for transmission, ways to help prevent exposure or the spread of infection, and available treatments.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Explain the meaning of immunization.
+      - n: 2b
+        text: Name eight diseases against which a young child should be immunized, two diseases against which everyone should be reimmunized periodically, and one immunization everyone should receive annually. With your counselor’s approval, choose a sample program. Modify the code or add a function or subroutine to it. Debug and demonstrate the modified program to your counselor. The Programming merit badge website, www.scoutlife. org/programming, has a number of sample programs that you could use for requirement 5. However, you have the option of finding a program on your own. It’s a good idea to seek your counselor’s guidance.
+      - n: 2c
+        text: Using the list of diseases and conditions in requirement 1(b), discuss with your counselor those which currently have no immunization available.
+  - n: "3"
+    text: Discuss the importance of safe drinking water in terms of the spread of disease. Then, demonstrate two ways for making water safe to drink that can be used while at camp. In your demonstration, explain how dishes and utensils should be washed, dried, and kept sanitary at home and in camp.
+  - n: "4"
+    text: Explain what a vector is and how insects and rodents can be controlled in your home, in your community, and at camp. Tell why this is important. In your discussion, explain which vectors can be easily controlled by individuals and which ones require long-term, collective action.
+  - n: "5"
+    text: "With your parent or guardian’s and counselor’s approval, do ONE of the following:"
+    choose: 1
+    children:
+      - n: 5a
+        text: Visit a municipal wastewater treatment facility OR a solid-waste management operation in your community.
+        children:
+          - n: 5a1
+            text: Describe how the facility safely treats and disposes of sewage or solid waste.
+          - n: 5a2
+            text: Discuss your visit and what you learned with your counselor.
+          - n: 5a3
+            text: Describe how sewage and solid waste should be disposed of under wilderness camping conditions.
+      - n: 5b
+        text: Visit a food service facility, such as a restaurant or school cafeteria.
+        children:
+          - n: 5b1
+            text: Observe food preparation, handling, and storage. Learn how the facility keeps food from becoming contaminated.
+          - n: 5b2
+            text: Find out what conditions allow microorganisms to multiply in food, what can be done to help prevent them from growing and spreading, and how to kill them.
+          - n: 5b3
+            text: Discuss the importance of using a thermometer to check food temperatures.
+          - n: 5b4
+            text: Discuss your visit and what you learned with your counselor.
+  - n: "6"
+    text: "Do the following:"
+    children:
+      - n: 6a
+        text: Describe the health dangers from air, water, and noise pollution.
+      - n: 6b
+        text: Describe health dangers from tobacco use and alcohol and drug abuse.
+      - n: 6c
+        text: Describe the health dangers from abusing illegal and prescription drugs.
+  - n: "7"
+    updated_2026: true
+    text: "With your parent or guardian's and counselor's approval, do ONE of the following (a) or (b):"
+    choose: 1
+    children:
+      - n: 7a
+        text: Visit your city, county, state, or a federal public health agency.
+      - n: 7b
+        text: "Familiarize yourself with your city, county, state, or a federal health agency's website. After completing either 7(a) or 7(b), do the following:"
+      - n: 7i
+        text: Compare the four leading causes of mortality (death) in your community for any of the past five years with the four leading causes of disease in your community. Explain how the public health agency you visited is trying to reduce the mortality and morbidity rates of these leading causes of illness and death. (ii) Explain the role of your health agency as it relates to the outbreak of diseases. (iii) Discuss the kinds of public assistance the agency is able to provide in case of disasters such as floods, storms, tornadoes, earthquakes, and other acts of destruction. Your discussion can include the cleanup necessary after the disaster.
+  - n: "8"
+    text: Pick a profession in the public health sector that interests you. Find out the education, training, and experience required to work in this profession. Discuss what you learn with your counselor.

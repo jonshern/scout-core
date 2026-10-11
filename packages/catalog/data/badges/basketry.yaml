@@ -1,0 +1,30 @@
+id: badge:basketry
+name: Basketry
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/basketry/
+worksheet_url: http://usscouts.org/mb/worksheets/Basketry.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the hazards you are most likely to encounter while using basketry tools and materials, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
+      - n: 1b
+        text: Discuss the prevention of and first-aid treatment for injuries, including cuts, scratches, and scrapes, that could occur while working with basketry tools and materials.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: "Show your counselor that you are able to identify the following types of baskets: plaited, coiled, ribbed, wicker."
+      - n: 2b
+        text: Describe three different types of weaves to your counselor.
+  - n: "3"
+    text: "Plan and weave the following projects:"
+    children:
+      - n: 3a
+        text: Square basket
+      - n: 3b
+        text: Round basket
+      - n: 3c
+        text: Campstool seat

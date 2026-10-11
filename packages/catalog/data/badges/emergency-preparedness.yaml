@@ -1,0 +1,149 @@
+id: badge:emergency-preparedness
+name: Emergency Preparedness
+edition: 2026
+eagle_required: true
+official_url: https://www.scouting.org/merit-badges/emergency-preparedness/
+worksheet_url: http://usscouts.org/mb/worksheets/Emergency-Preparedness.pdf
+requirements:
+  - n: "1"
+    text: "Emergency Situations. Do the following:"
+    children:
+      - n: 1a
+        text: "Discuss with your counselor the aspects of emergency preparedness and include in your discussion the kinds of questions that are important to ask yourself as you consider each of these:"
+        children:
+          - n: 1a1
+            text: Prevention
+          - n: 1a2
+            text: Protection
+          - n: 1a3
+            text: Mitigation
+          - n: 1a4
+            text: Response
+          - n: 1a5
+            text: Recovery
+      - n: 1b
+        text: Using a chart, spreadsheet, or another method approved by your counselor, demonstrate your understanding of each aspect of emergency preparedness listed in requirement 1(a) (prevention, protection, mitigation, response, and recovery) for 10 emergency situations from the list below. Discuss your findings with your counselor.
+        children:
+          - n: 1b1
+            text: Home stovetop or oven fire
+          - n: 1b2
+            text: Home flammable liquid fire
+          - n: 1b3
+            text: Gas leak in or near a home or with outside cooking
+          - n: 1b4
+            text: Food poisoning
+          - n: 1b5
+            text: Automobile crash
+          - n: 1b6
+            text: Vehicle stalled in the desert
+          - n: 1b7
+            text: Vehicle trapped in a blizzard
+          - n: 1b8
+            text: Backcountry injury
+          - n: 1b9
+            text: Boating or water accident
+          - n: 1b10
+            text: Toxic chemical spills and releases
+          - n: 1b11
+            text: Nuclear power plant emergency
+          - n: 1b12
+            text: Fire or explosion in a public place
+          - n: 1b13
+            text: Violence in a public place
+          - n: 1b14
+            text: Wildland fire
+          - n: 1b15
+            text: Avalanche (snowslide or rockslide)
+          - n: 1b16
+            text: Earthquake
+          - n: 1b17
+            text: Tsunami
+          - n: 1b18
+            text: Major flooding or a flash flood with water outage
+          - n: 1b19
+            text: Hurricane with power outage
+          - n: 1b20
+            text: Tornado
+          - n: 1b21
+            text: Lightning storm
+  - n: "2"
+    text: "Planning for Family Emergencies. Do the following:"
+    children:
+      - n: 2a
+        text: At a family meeting, discuss the situations on the chart you created for requirement 1(b) and make emergency plans for sheltering-in-place and for evacuation of your home. Discuss your meeting and plans with your counselor.
+      - n: 2b
+        text: Develop and practice a plan of escape for your family in case of fire in your home. Draw a floor plan with escape routes and a map with a safe meeting place. Discuss your family’s home escape plan with your counselor.
+      - n: 2c
+        text: Using a checklist in Emergency Preparedness pamphlet or one approved by your counselor, prepare or inspect a family disaster kit for sheltering-in-place and for evacuation of your home. Review the needs and uses of the items in a kit with your counselor
+  - n: "3"
+    text: "Preventing Accidents and Emergencies. Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 3a
+        text: Using a home safety checklist included in the Emergency Preparedness pamphlet or one approved by your counselor, inspect a home (or a similar building near where you live or at a camp) for safety hazards with the help of an adult. Present your completed checklist to and discuss your findings with your counselor.
+      - n: 3b
+        text: Develop emergency prevention plans for five family activities outside the home, as approved by your counselor. (Examples are taking a picnic to a park, seeing a movie, attending a worship service, an outing at a beach, traveling to visit a relative, or attending a ball game or concert.) Each plan should include an analysis of possible hazards, proposals to prevent, protect from, mitigate, respond to, and recover from emergencies, and the reasons for the actions that you propose.
+  - n: "4"
+    text: "Dangerous Situations. Show how you could save a person from the following dangerous situations without putting yourself in danger:"
+    children:
+      - n: 4a
+        text: Live household electric wire
+      - n: 4b
+        text: A structure filled with carbon monoxide
+      - n: 4c
+        text: Clothes on fire
+      - n: 4d
+        text: Drowning, using nonswimming rescues (including accidents on ice)
+  - n: "5"
+    text: "Signaling for Help. Do the following:"
+    children:
+      - n: 5a
+        text: Show three ways of attracting and communicating with rescue aircraft or drones.
+      - n: 5b
+        text: Show ways to attract attention of searchers on the ground if you are lost in the wilderness.
+      - n: 5c
+        text: Show ways to attract attention of searchers on the water if you are stranded with a capsized or disabled motorboat or sailboat.
+  - n: "6"
+    text: Moving an Injured Person. With another person, show two good ways to transport an injured person out of a remote area using improvised stretchers to conserve the energy of rescuers while ensuring the well-being and protection of the injured person.
+  - n: "7"
+    text: "National Incident Management System (NIMS) and Incident Command System (ICS). Do the following:"
+    children:
+      - n: 7a
+        text: Describe the National Incident Management System (NIMS) and the local Incident Command System (ICS).
+      - n: 7b
+        text: Find out how your community and its leaders work to manage and to train for disasters. Discuss this information with your counselor, using the information you learned from requirement 1(b).
+      - n: 7c
+        text: Discuss how a Scout troop can help in an emergency situation using ICS.
+  - n: "8"
+    text: "Emergency Service. Do the following:"
+    children:
+      - n: 8a
+        text: "Discuss with your counselor the duties that a Scout troop should be prepared to do, the training they need, and the safety precautions they should take for the following emergency services:"
+        children:
+          - n: 8a1
+            text: Crowd and traffic control
+          - n: 8a2
+            text: Messenger service during an incident
+          - n: 8a3
+            text: Collection and distribution services
+          - n: 8a4
+            text: Group feeding, shelter, and sanitation
+      - n: 8b
+        text: Prepare a written plan for mobilizing your troop when needed to do emergency service. If your troop already has a mobilization plan, present the plan to your counselor and tell your part in making the plan work.
+      - n: 8c
+        text: Using a checklist in the Emergency Preparedness pamphlet or one approved by your counselor, prepare or inspect a personal emergency service pack for a mobilization call. Explain the needs and uses of the contents to your counselor.
+      - n: 8d
+        text: Take part in an emergency service project, either a real one or a practice exercise, with a Scouting troop or a community agency or at Scout camp or at a school. Review what you learned and practiced with your counselor.
+  - n: "9"
+    updated_2026: true
+    text: First Aid Merit Badge. Earn the First Aid merit badge.
+  - n: "10"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 10a
+        text: Interview an emergency services coordinator or a civil servant about their work in disaster management. Learn about how they chose this career and about their duties. Discuss what you learned with your counselor and whether you might be interested in this career.
+      - n: 10b
+        text: Identify three career opportunities that would use skills and knowledge in emergency services. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
+      - n: 10c
+        text: Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.

@@ -1,0 +1,71 @@
+id: badge:cybersecurity
+name: Cybersecurity
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/cybersecurity/
+worksheet_url: null
+notes:
+  - "Note: New badge launched in 2025. No printed pamphlet or usscouts worksheet yet; requirements are published online only."
+requirements:
+  - n: "1"
+    text: "Safety. Do the following:"
+    children:
+      - n: 1a
+        text: View the Personal Safety Awareness "Digital Safety" video (with parent/guardian permission).
+      - n: 1b
+        text: Explain how to protect your digital footprint on social media, apps, and online gaming, and show how to set privacy settings.
+      - n: 1c
+        text: Discuss first aid and prevention for injuries from repeated device use (eye strain, repetitive injuries) and how to stay physically safe while using a mobile device.
+  - n: "2"
+    text: "Ethics. Do the following:"
+    children:
+      - n: 2a
+        text: Relate three points of the Scout Law to how people behave online or with connected devices.
+      - n: 2b
+        text: Discuss ethical vs. unethical behavior in cyberspace, and how to respond to an unattended device, a visible password, or an unsecured website.
+  - n: "3"
+    text: "Fundamentals. Discuss each with your counselor:"
+    children:
+      - n: 3a
+        text: Describe three types of computer systems that need protecting, and why.
+      - n: 3b
+        text: Explain the C.I.A. Triad — Confidentiality, Integrity, Availability — and why it is fundamental.
+  - n: "4"
+    text: "Cyber Threats, Vulnerabilities, and Attacks. Discuss each:"
+    children:
+      - n: 4a
+        text: Define vulnerability, threat, and exploit, with an example of each.
+      - n: 4b
+        text: Research one type of malware and explain how it works and the harm it causes.
+      - n: 4c
+        text: Identify two risks of public Wi-Fi and how to reduce them.
+      - n: 4d
+        text: Describe spoofing and phishing and how to recognize and respond to them.
+      - n: 4e
+        text: "Current events — do ONE: read about a recent cybersecurity incident, OR watch/read media where cybersecurity plays a role and discuss it."
+      - n: 4f
+        text: Create a list of your personal cyber attack surface.
+  - n: "5"
+    text: "Cyber Defenses. Do the following:"
+    children:
+      - n: 5a
+        text: Describe three technologies used to defend a computer or network (access controls, antivirus, firewall, intrusion detection, VPN).
+      - n: 5b
+        text: Explain the importance of updates, and demonstrate checking, downloading, and installing them.
+      - n: 5c
+        text: With permission, do THREE of nine system-security tasks (strong passwords, MFA, password manager, virus scan, view running processes, view network connections, back up data, a family security checklist, or find and fix a vulnerability).
+  - n: "6"
+    text: "Cryptography. Do the following:"
+    children:
+      - n: 6a
+        text: Research and explain three situations where encryption is used.
+      - n: 6b
+        text: Show how to tell whether your connection to a website is encrypted.
+      - n: 6c
+        text: "Do ONE: create your own cipher and demonstrate it, set up an end-to-end encrypted app, demonstrate file-integrity hashing, or create a PGP key and send an encrypted message."
+  - n: "7"
+    text: Connected Devices and the Internet of Things (IoT). Describe four internet-connected devices you use, why they connect, their risks, and how to protect them.
+  - n: "8"
+    text: "Cybersecurity Activities. Do ONE: learn about a cybersecurity competition/camp, participate in a competition, or give a presentation on a cybersecurity topic."
+  - n: "9"
+    text: "Careers. Do ONE: research three cybersecurity careers and study one in depth, OR visit a cybersecurity workplace and report what you learned."

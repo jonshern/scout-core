@@ -1,0 +1,54 @@
+id: badge:geocaching
+name: Geocaching
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/geocaching/
+worksheet_url: http://usscouts.org/mb/worksheets/geocaching.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the most likely hazards you may encounter while participating in geocaching activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
+      - n: 1b
+        text: Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in geocaching activities, including cuts, scrapes, snakebite, insect stings, tick bites, exposure to poisonous plants, heat and cold reactions (sunburn, heatstroke, heat exhaustion, hypothermia), and dehydration.
+      - n: 1c
+        text: Discuss how to properly plan an activity that uses GPS, including using the buddy system, sharing your plan with others, and considering the weather, route, and proper attire.
+  - n: "2"
+    text: "Discuss the following with your counselor:"
+    children:
+      - n: 2a
+        text: Why you should never bury a cache
+      - n: 2b
+        text: How to use proper geocaching etiquette when hiding or seeking a cache, and how to properly hide, post, maintain, and dismantle a geocache
+      - n: 2c
+        text: The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching
+  - n: "3"
+    text: "Explain the following terms used in geocaching: waypoint, log, cache, accuracy, difficulty and terrain ratings, attributes, trackable. Choose five additional terms to explain to your counselor."
+  - n: "4"
+    text: Explain how the Global Positioning System (GPS) works. Then, using Scouting’s Teaching EDGE, demonstrate to your counselor the use of a GPS unit. Include marking and editing a waypoint, changing field functions, and changing the coordinate system in the unit.
+  - n: "5"
+    text: "Do the following:"
+    children:
+      - n: 5a
+        text: Show you know how to use a map and compass and explain why this is important for geocaching.
+      - n: 5b
+        text: Explain the similarities and differences between GPS navigation and standard map-reading skills and describe the benefits of each.
+  - n: "6"
+    text: Describe to your counselor the four steps to finding your first cache. Then mark and edit a waypoint.
+  - n: "7"
+    text: With your parent or guardian’s permission*, go to www.geocaching.com. Type in your city and state to locate public geocaches in your area. Share with your counselor the posted information about three of those geocaches. Then, pick one of the three and find the cache.
+  - n: "8"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 8a
+        text: If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that each cache you visit highlights, and explain how the Cache to Eagle® program helps share our Scouting service with the public.
+      - n: 8b
+        text: Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. “Release” your Travel Bug into a public geocache and, with your parent or guardian’s permission, monitor its progress at www.geocaching.com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period.
+      - n: 8c
+        text: Set up and hide a public geocache, following the guidelines in the Geocaching pamphlet. Before doing so, share with your counselor a three-month maintenance plan for the geocache where you are personally responsible for those three months. After setting up the geocache, with your parent or guardian’s permission, follow the logs online for 30 days and share them with your counselor. You must archive the geocache when you are no longer maintaining it.
+      - n: 8d
+        text: Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public.
+  - n: "9"
+    text: Plan a geohunt for a youth group such as your troop or a neighboring pack, at school, or your place of worship. Choose a theme, set up a course with at least four waypoints, teach the players how to use a GPS unit, and play the game. Tell your counselor about your experience, and share the materials you used and developed for this event. * To fulfill this requirement, you will need to set up a free user account with www.geocaching.com. Before doing so, ask your parent or guardian for permission and help.

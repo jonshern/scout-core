@@ -1,0 +1,55 @@
+id: badge:multisport
+name: Multisport
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/multisport/
+worksheet_url: null
+notes:
+  - "Note: New merit badge for 2026. No printed pamphlet or usscouts worksheet yet; use the official requirements link."
+requirements:
+  - n: "1"
+    text: Safety.
+    children:
+      - n: 1a
+        text: Explain the hazards of multisport activities and how to anticipate, prevent, mitigate, and respond to them.
+      - n: 1b
+        text: Demonstrate first aid for abrasions, blisters, concussions, contusions, dehydration, hypothermia, overheating, sprains, and strains.
+  - n: "2"
+    text: Health.
+    children:
+      - n: 2a
+        text: Discuss the importance of an annual physical exam and tell when you last had one.
+      - n: 2b
+        text: Explain how tobacco, alcohol, and other harmful substances affect athletic performance.
+      - n: 2c
+        text: Define a healthy diet and explain its importance during training.
+  - n: "3"
+    text: Sports.
+    children:
+      - n: 3a
+        text: Discuss your familiarity and experience with swimming, biking, and running.
+      - n: 3b
+        text: Identify your strongest sport and an area to improve.
+      - n: 3c
+        text: Identify the equipment required for all three sports.
+      - n: 3d
+        text: "Select ONE format: Triathlon, Duathlon, Aquathlon, or Aquabike."
+  - n: "4"
+    text: "Activities — complete the parts that apply to your chosen format: Swimming (Triathlon, Aquathlon, Aquabike): earn the Swimming merit badge; explain the Safe Swim Defense components; and explain pool vs. open-water swimming and wetsuit/temperature guidance. Biking (Triathlon, Duathlon, Aquabike): explain riding predictably, visibly, and ready; discuss regular bike safety checks; and explain helmet fit and proper clothing. Running (Triathlon, Duathlon, Aquathlon): demonstrate warm-up and cool-down and explain hydration, nutrition, injury prevention, and rest; state the road rules for runners; and demonstrate high knees, butt kicks, lunges, inchworms, and soldier kicks."
+  - n: "5"
+    text: Training.
+    children:
+      - n: 5a
+        text: Build a four-week training plan with your counselor (sessions at least 25 minutes, with warm-up and stretching).
+      - n: 5b
+        text: Track your progress with a chart or log.
+      - n: 5c
+        text: Set a personal improvement goal (time, technique, or distance).
+      - n: 5d
+        text: After four weeks, discuss your progress and development with your counselor.
+  - n: "6"
+    text: Transitions. Learn how to set up a transition area and discuss making smooth, safe transitions with your counselor.
+  - n: "7"
+    text: "Participate. Complete your chosen format in one day, consecutively, with smooth transitions — Triathlon: swim 100 m, bike 3 km, run 1 km; Duathlon: run 1.5 km, bike 3 km, run 0.75 km; Aquathlon: swim 100 m, run 1 km; Aquabike: swim 100 m, bike 3 km."
+  - n: "8"
+    text: "Continue — do TWO of the following and discuss with your counselor: research two ways to continue multisport; research an Olympic, Paralympic, or professional triathlete; lead a training group for peers; sign up for and participate in a sanctioned multisport event; or volunteer at a multisport, race, or adaptive sporting event."

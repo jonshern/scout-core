@@ -1,0 +1,89 @@
+id: badge:kayaking
+name: Kayaking
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/kayaking/
+worksheet_url: http://usscouts.org/mb/worksheets/Kayaking.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
+      - n: 1b
+        text: "Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock and hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains."
+      - n: 1c
+        text: Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to kayaking.
+  - n: "2"
+    updated_2026: true
+    text: "Before doing requirements 3 through 8, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test."
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking.
+      - n: 3b
+        text: Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag.
+  - n: "4"
+    text: "Do the following:"
+    children:
+      - n: 4a
+        text: Name and point out the major parts of a kayak.
+      - n: 4b
+        text: Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in the design of each type.
+      - n: 4c
+        text: Explain the care, maintenance, and storage of a kayak.
+  - n: "5"
+    text: "Discuss the following:"
+    children:
+      - n: 5a
+        text: Correct methods for the use of a kayak paddle.
+      - n: 5b
+        text: Parts of a paddle.
+      - n: 5c
+        text: The care and maintenance of a paddle.
+  - n: "6"
+    text: "Using a properly equipped kayak with an open cockpit, a sit-on-top, or an inflatable kayak, do the following:"
+    children:
+      - n: 6a
+        text: Safely capsize and perform a wet exit.
+      - n: 6b
+        text: Reenter the kayak with assistance from a buddy boat.
+      - n: 6c
+        text: Demonstrate a kayak-over-kayak rescue.
+      - n: 6d
+        text: Demonstrate the HELP position.
+      - n: 6e
+        text: Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance, if needed.
+  - n: "7"
+    text: "As a solo paddler, use a properly equipped kayak to demonstrate the following:"
+    children:
+      - n: 7a
+        text: Forward stroke
+      - n: 7b
+        text: Backstroke
+      - n: 7c
+        text: Forward sweep
+      - n: 7d
+        text: Reverse sweep
+      - n: 7e
+        text: Draw stroke
+      - n: 7f
+        text: Stern draw
+  - n: "8"
+    text: "As a solo paddler, use a properly equipped kayak to demonstrate the following:"
+    children:
+      - n: 8a
+        text: Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak.
+      - n: 8b
+        text: Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths.
+      - n: 8c
+        text: Move abeam to the right 10 feet and to the left 10 feet.
+      - n: 8d
+        text: Stop the boat in one boat length.
+      - n: 8e
+        text: While maintaining forward motion, turn the kayak 90 degrees to the right and left.
+      - n: 8f
+        text: Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes.
+      - n: 8g
+        text: Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart.

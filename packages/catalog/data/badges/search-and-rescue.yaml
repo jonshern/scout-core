@@ -1,0 +1,159 @@
+id: badge:search-and-rescue
+name: Search and Rescue
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/search-and-rescue/
+worksheet_url: http://usscouts.org/mb/worksheets/Search-and-Rescue.pdf
+requirements:
+  - n: "1"
+    updated_2026: true
+    text: "Hazards and First Aid. Do the following:"
+    children:
+      - n: 1a
+        text: "Show or explain first aid for, and prevention of, injuries and conditions that searchers and subjects could develop during an SAR situation, including:"
+        children:
+          - n: 1a1
+            text: Dehydration
+          - n: 1a2
+            text: Heatstroke
+          - n: 1a3
+            text: Hypothermia
+          - n: 1a4
+            text: Shock
+          - n: 1a5
+            text: Blisters
+          - n: 1a6
+            text: Eye injuries
+          - n: 1a7
+            text: Ankle and knee sprains
+          - n: 1a8
+            text: Bug bites of chiggers, ticks, mosquitoes, and biting gnats
+          - n: 1a9
+            text: Bee stings
+          - n: 1a10
+            text: Bites of spiders
+          - n: 1a11
+            text: Sting of a scorpion
+          - n: 1a12
+            text: Bite of a wild mammal
+          - n: 1a13
+            text: Bite of a venomous snake.
+      - n: 1b
+        text: Explain how the Scout Essentials address hazards outdoors and help lost Scouts stay safe before they are rescued.
+      - n: 1c
+        text: Discuss how the safety gear carried by SAR team members in their field packs address SAR hazards.
+  - n: "2"
+    updated_2026: true
+    text: "Staying and Getting Found. Do the following:"
+    children:
+      - n: 2a
+        text: Explain how a trip plan and the buddy system help Scouts with staying found and getting found.
+      - n: 2b
+        text: Explain how seasonal and daily weather changes affect Trip Plans.
+      - n: 2c
+        text: Explain and show how a lost Scout could send signals that would alert a ground, airborne, or water SAR team to their location.
+      - n: 2d
+        text: Demonstrate how to use a signaling mirror.
+      - n: 2e
+        text: Explain how a Personal Locator Beacon (PLB) works and the role of the Air Force Rescue Coordination Center (AFRCC).
+  - n: "3"
+    updated_2026: true
+    text: "Maps. Using a map, a compass and a GPS device or app approved by your counselor, do the following:"
+    children:
+      - n: 3a
+        text: Point out and explain the 5 D’s (Date, Description, Details, Direction or Declination, Distance) of the map.
+      - n: 3b
+        text: Choose a location on the map and record the altitude, latitude, longitude, and US National Grid coordinates. Describe how these coordinate systems differ.
+      - n: 3c
+        text: Orient the map and take a bearing to another map location. Estimate the distance between, and describe the terrain between, the two locations.
+      - n: 3d
+        text: Show a hypothetical place last seen and point out an area on your map that could be used for containment using natural or human-made boundaries.
+  - n: "4"
+    updated_2026: true
+    text: "Incident Command System (ICS). Do the following:"
+    children:
+      - n: 4a
+        text: Explain how a local ICS is organized and how it compares with Scouting's patrol method.
+      - n: 4b
+        text: Explain how local community agencies work to train for and manage search and rescue situations.
+  - n: "5"
+    updated_2026: true
+    text: "SAR Teams. Do the following:"
+    children:
+      - n: 5a
+        text: Explain the official duties of a search and rescue team.
+      - n: 5b
+        text: Explain the differences between wilderness, urban, and water SARs.
+      - n: 5c
+        text: Identify four types of search and rescue teams and explain situations where they are used.
+  - n: "6"
+    updated_2026: true
+    text: "Search and Rescue Procedures. Do the following:"
+    children:
+      - n: 6a
+        text: Explain the difference between search and rescue.
+      - n: 6b
+        text: Explain the difference between PLS (place last seen) and LKP (last known point)
+      - n: 6c
+        text: Explain the importance of effective communication in SAR operations.
+      - n: 6d
+        text: Explain how predictions of “lost person behavior” determine SAR search plans for a young child, a teenager, and an adult.
+      - n: 6e
+        text: "Explain the following terms:"
+        children:
+          - n: "6e1"
+            text: Evaluating search urgency
+          - n: "6e2"
+            text: Establishing confinement
+          - n: "6e3"
+            text: Scent item
+          - n: "6e4"
+            text: Area air scent dog
+          - n: "6e5"
+            text: Briefing and debriefing
+          - n: "6e6"
+            text: Clue awareness
+          - n: "6e7"
+            text: Evidence preservation
+          - n: "6e8"
+            text: Tracking a subject
+          - n: "6e9"
+            text: Locating a subject using attraction
+          - n: "6e10"
+            text: Hasty search
+          - n: "6e11"
+            text: Trail sweep search
+          - n: "6e12"
+            text: Grid search.
+  - n: "7"
+    updated_2026: true
+    text: "Plan and Complete a Search. Do the following with a team of Scouts, friends, or family to execute a practice SAR exercise:"
+    children:
+      - n: 7a
+        text: Choose a hypothetical SAR scenario, either one presented in the Search and Rescue merit badge pamphlet or one approved by your counselor.
+      - n: 7b
+        text: Develop an Incident Action Plan (IAP) for a hasty search using the scenario information.
+      - n: 7c
+        text: Before the search begins, conduct a PAUSE briefing to review hazards, safety concerns, personal and shared Scout Essentials, and other gear.
+      - n: 7d
+        text: Execute the search.
+      - n: 7e
+        text: After the search, hold a team debriefing to discuss the search, problems, successful and unsuccessful tactics, and ideas for improvement.
+  - n: "8"
+    updated_2026: true
+    text: "Careers. Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 8a
+        text: Explore careers related to Search and Rescue merit badge or emergency management. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
+      - n: 8b
+        text: Explore how you could use knowledge and skills from this merit badge to serve as a volunteer on a disaster relief team, a wilderness rescue team, or a ski patrol. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what shortterm and long-term goals you might have if you pursue this.
+  - n: "9"
+    text: "Discuss with your counselor the terms hasty team and hasty search. Then do the following:"
+    children:
+      - n: 9a
+        text: "Plan and carry out a practice hasty search—either urban or wilderness— for your patrol or troop. Include the following elements in the search: clue awareness, evidence preservation, tracking the subject, and locating the subject using attraction or trail sweep."
+      - n: 9b
+        text: When it’s over, hold a team debriefing to discuss the hasty search. Discuss problems encountered, successful and unsuccessful tactics, and ideas for improvement.
+  - n: "10"
+    text: Find out about three career or volunteer opportunities in search and rescue. Pick one and find out the education, training, and experience required for this professional or volunteer position. Discuss this with your counselor, and explain why this position might interest you. *Scouts who have already completed the original requirement 5 as published in the current Search and Rescue pamphlet need not redo this updated requirement in order to earn the badge.

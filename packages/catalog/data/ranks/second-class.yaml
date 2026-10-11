@@ -1,0 +1,109 @@
+id: rank:second-class
+name: Second Class
+edition: 2026
+official_url: https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/
+requirements:
+  - n: Camping and Outdoor Ethics
+    text: Camping and Outdoor Ethics
+    children:
+      - n: 1a
+        text: Participate in 5 troop/patrol activities (3 outdoors, 2 overnight camping)
+      - n: 1b
+        text: Recite Leave No Trace principles, explain how you follow them
+      - n: 1c
+        text: On a campout, select a campsite location and recommend it to patrol leader; explain factors for choosing a site and where to pitch a tent
+  - n: Cooking and Tools
+    text: Cooking and Tools
+    children:
+      - n: 2a
+        text: Explain when it is appropriate to use a fire for cooking and when it would not be appropriate
+      - n: 2b
+        text: Use a pocketknife, and a saw or axe if needed, to prepare tinder, kindling, and fuel wood for a cooking fire
+      - n: 2c
+        text: Using minimum-impact method, build a fire. Light the fire, let it burn 2 min, then safely extinguish it
+      - n: 2d
+        text: Explain when to use a lightweight/propane stove. Set up and light a stove
+      - n: 2e
+        text: On one campout, plan and cook one hot breakfast or lunch
+      - n: 2f
+        text: Demonstrate tying the sheet bend knot
+      - n: 2g
+        text: Demonstrate tying the bowline knot
+  - n: Navigation
+    text: Navigation
+    children:
+      - n: 3a
+        text: Demonstrate how a compass works and how to orient a map. Point out 5 map symbols
+      - n: 3b
+        text: Using compass and map, take a 5-mile hike (or 10 miles by bike)
+      - n: 3c
+        text: Describe hazards or injuries you might encounter on your hike and how to prevent them
+      - n: 3d
+        text: Demonstrate how to find directions during the day and at night without a compass or electronic device
+  - n: Nature
+    text: Nature
+    children:
+      - n: "4"
+        text: Identify or show evidence of at least 10 kinds of wild animals in your local area or camping location
+  - n: Aquatics
+    text: Aquatics
+    children:
+      - n: 5a
+        text: Tell what precautions must be taken for a safe swim
+      - n: 5b
+        text: Demonstrate the Scouting America beginner test (jump in, swim 25 feet, turn, return)
+      - n: 5c
+        text: Demonstrate water rescue methods by reaching with arm/leg, reaching with object, and throwing lines/objects
+      - n: 5d
+        text: Explain why swimming rescues should not be attempted when reaching or throwing rescue is possible
+  - n: First Aid and Emergency Preparedness
+    text: First Aid and Emergency Preparedness
+    children:
+      - n: 6a
+        text: "Demonstrate first aid for: object in eye, animal bite, puncture wounds, serious burns, heat exhaustion, shock, heatstroke, dehydration, hypothermia, hyperventilation"
+      - n: 6b
+        text: 'Show what to do for "hurry" cases: stopped breathing, stroke, severe bleeding, ingested poisoning'
+      - n: 6c
+        text: Tell what you can do on a campout or hike to prevent or reduce injuries from 6a and 6b
+      - n: 6d
+        text: Explain what to do for accidents requiring emergency response in home and backcountry
+      - n: 6e
+        text: Tell how to respond if you come upon the scene of a vehicular accident
+  - n: Fitness
+    text: Fitness
+    children:
+      - n: 7a
+        text: After completing Tenderfoot 6c, be physically active at least 30 min/day, 5 days/week, for 4 weeks. Keep track of activities
+      - n: 7b
+        text: Share your challenges and successes in completing 7a. Set a goal for continuing physical activity as part of daily life
+      - n: 7c
+        text: Participate in a school, community, or troop program on the dangers of using drugs, alcohol, and tobacco. Discuss with family and explain dangers of substance addictions. Report to Scoutmaster
+  - n: Citizenship
+    text: Citizenship
+    children:
+      - n: 8a
+        text: Participate in a flag ceremony for your school, religious institution, chartered organization, community, or Scouting activity
+      - n: 8b
+        text: Explain what respect is due the flag of the United States
+      - n: 8c
+        text: With your parent or guardian, decide on an amount of money to earn based on the cost of a specific item you would like to purchase. Develop a written plan to earn the amount and follow it. Discuss any changes and whether you met your goal
+      - n: 8d
+        text: At a minimum of 3 locations, compare the cost of the item from 8c. After completing 8c, decide if you will use the amount earned as originally intended, save it, or use it for another purpose
+      - n: 8e
+        text: Participate in 2 hours of service through one or more service projects approved by your Scoutmaster. Tell how your service relates to the Scout Oath
+  - n: Personal Safety Awareness
+    text: Personal Safety Awareness
+    children:
+      - n: 9a
+        text: Explain the three R's of personal safety and protection
+      - n: 9b
+        text: Describe bullying; tell what the appropriate response is to someone who is bullying you or another person
+  - n: Scout Spirit
+    text: Scout Spirit
+    children:
+      - n: "10"
+        text: Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived 4 different points of the Scout Law (not to include those used for Tenderfoot requirement 9)
+      - n: "11"
+        text: While working toward the Second Class rank, and after completing Tenderfoot requirement 10, participate in a Scoutmaster conference
+      - n: "12"
+        text: Successfully complete your board of review for the Second Class rank

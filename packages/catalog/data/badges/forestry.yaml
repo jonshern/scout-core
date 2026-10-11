@@ -1,0 +1,109 @@
+id: badge:forestry
+name: Forestry
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/forestry/
+worksheet_url: http://usscouts.org/mb/worksheets/Forestry.pdf
+requirements:
+  - n: "1"
+    text: "Prepare a field notebook, make a collection, and identify 15 species of trees, wild shrubs, or vines in a local forested area. Write a description in which you identify and discuss the following:"
+    children:
+      - n: 1a
+        text: The characteristics of leaf, twig, cone, or fruiting bodies
+      - n: 1b
+        text: The habitat in which these trees, shrubs, or vines are found
+      - n: 1c
+        text: The important ways each tree, shrub, or vine is used by humans or wildlife and whether the species is native or was introduced to the area. If it is not native, explain whether it is considered invasive or potentially invasive.
+  - n: "2"
+    text: "Do ONE of the following:"
+    choose: 1
+    children:
+      - n: 2a
+        text: Collect and identify wood samples of 10 species of trees. List several ways the wood of each species can be used.
+      - n: 2b
+        text: Find and examine three stumps, logs, or core samples that show variations in the growth rate of their ring patterns. In the field notebook you prepared for requirement 1, describe the location or origin of each example (including elevation, aspect, slope, and the position on the slope), and discuss possible reasons for the variations in growth rate. Photograph or sketch each example.
+      - n: 2c
+        text: Find and examine two types of animal, insect, or disease damage to trees. In the field notebook you prepared for requirement 1, identify the damage, explain how the damage was caused, and describe the effects of the damage on the trees. Photograph or sketch each example.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: "Describe the contributions forests make to:"
+        children:
+          - n: 3a1
+            text: Our economy in the form of products
+          - n: 3a2
+            text: Our social well-being, including recreation
+          - n: 3a3
+            text: Soil protection and increased fertility
+          - n: 3a4
+            text: Clean water
+          - n: 3a5
+            text: Clean air (carbon cycling, sequestration)
+          - n: 3a6
+            text: Wildlife habitat
+          - n: 3a7
+            text: Fisheries habitat
+          - n: 3a8
+            text: Threatened and endangered species of plants and animals
+      - n: 3b
+        text: Tell which watershed or other source your community relies on for its water supply.
+  - n: "4"
+    text: "Describe what forest management means, including the following:"
+    children:
+      - n: 4a
+        text: Multiple-use management
+      - n: 4b
+        text: Sustainable forest management
+      - n: 4c
+        text: Even-aged and uneven-aged management and the silvicultural systems associated with each
+      - n: 4d
+        text: Intermediate cuttings
+      - n: 4e
+        text: The role of prescribed burning and related forest-management practices
+  - n: "5"
+    updated_2026: true
+    text: "With your parent or guardian's and counselor's approval, do ONE of the following:"
+    choose: 1
+    children:
+      - n: 5a
+        text: Visit a managed public or private forest area with the manager or a forester who is familiar with it. Write a brief report describing the type of forest, the management objectives, and the forestry techniques used to achieve the objectives.
+      - n: 5b
+        text: "With a knowledgeable individual, visit a current or past logging operation or wood-using manufacturing plant. Write a brief report describing the following:"
+        children:
+          - n: 5b1
+            text: The species and size of trees harvested or used.
+          - n: 5b2
+            text: The origin of the forest or stands of trees utilized (e.g., planted or natural)
+          - n: 5b3
+            text: The forest's successional stage. What is its future? If it is a past logging operation, note the regeneration that is occurring either planted or natural.
+          - n: 5b4
+            text: Where the trees are coming from (land ownership) or where they are going (type of mill or processing plant).
+          - n: 5b5
+            text: The products that are made from the trees.
+          - n: 5b6
+            text: How the products are made and used.
+          - n: 5b7
+            text: How waste materials from the logging operation or manufacturing plant are or were disposed of or utilized.
+      - n: 5c
+        text: Take part in a forest-fire prevention campaign in cooperation with your local fire warden, state wildfire agency, forester, or counselor. Write a brief report describing the campaign, how it will help prevent wildfires, and your part in it.
+  - n: "6"
+    updated_2026: true
+    text: "In your camp, local recreation area (park or equivalent), or neighborhood, do ONE of the following:"
+    choose: 1
+    children:
+      - n: 6a
+        text: Inventory the trees within a specific area above (campsite, road, trail, street, etc.) that may be a hazard to structures or people. Note the species and hazardous condition, and suggest a remedy (removal or trimming). Make your list available to the proper authority or agency.
+      - n: 6b
+        text: Review a hazardous tree report done by a professional for this area and visit those trees and the results of the prescription to prune or remove them.
+  - n: "7"
+    text: "Do the following:"
+    children:
+      - n: 7a
+        text: "Describe the consequences to forests that result from FIVE of the following elements: wildfire, absence of fire, destructive insects, loss of pollinating insect population, tree diseases, air pollution, overgrazing, deer or other wildlife overpopulation, improper harvest, urbanization."
+      - n: 7b
+        text: Explain what can be done to reduce the consequences you discussed in 7(a).
+      - n: 7c
+        text: Describe what you should do if you discover a forest fire and how a professional firefighting crew might control it. Name your state or local wildfire control agency.
+  - n: "8"
+    text: Visit one or more local foresters and write a brief report about the person (or persons) OR write about a forester’s occupation including the education, qualifications, career opportunities, and duties related to forestry.

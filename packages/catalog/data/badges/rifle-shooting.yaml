@@ -1,0 +1,153 @@
+id: badge:rifle-shooting
+name: Rifle Shooting
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/rifle-shooting/
+worksheet_url: http://usscouts.org/mb/worksheets/Rifle-Shooting.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
+      - n: 1b
+        text: Explain the basic rules of safe gun handling that apply to all firearms.
+      - n: 1c
+        text: Describe how you would react if a friend visiting your home asked to see your or your family’s firearm.
+      - n: 1d
+        text: Explain the need for, types, and use of eye protection and hearing protection.
+      - n: 1e
+        text: Explain the main points of the laws for owning and using guns in your community and state.
+      - n: 1f
+        text: Explain how hunting is related to the wise use of renewable wildlife resources.
+      - n: 1g
+        text: Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following.
+        children:
+          - n: 1g1
+            text: Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND
+          - n: 1g2
+            text: List the kinds of wildlife that can be legally hunted in your state.
+      - n: 1h
+        text: Explain to your counselor the proper hygienic guidelines followed while shooting.
+      - n: 1i
+        text: Identify places in your community where you can join or be a part of range and target activities.
+      - n: 1j
+        text: Discuss with your counselor a list of sources you could contact for information on firearms and their use.
+  - n: "2"
+    text: "Working under the supervision of a certified National Rifle Association (NRA) rifle instructor and a certified range safety officer, at a nationally authorized camp property or at a commercial firearm range (as defined in the Scouting America National Range and Target Activities Manual), do ONE of the following options:"
+    choose: 1
+    options:
+      - key: A
+        name: Rifle Shooting (Modern Cartridge Type)
+      - key: B
+        name: Air Rifle Shooting (BB or Pellet)
+      - key: C
+        name: Muzzleloading Rifle Shooting
+    children:
+      - n: 2a-optA
+        option: A
+        text: Identify the three main parts of a rifle, and tell how they function.
+      - n: 2b-optA
+        option: A
+        text: Identify and demonstrate the rules for safely storing and handling a rifle.
+      - n: 2c-optA
+        option: A
+        text: Identify the two types of cartridges, their parts, and how they function.
+      - n: 2d-optA
+        option: A
+        text: Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each.
+      - n: 2e-optA
+        option: A
+        text: "Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through."
+      - n: 2f-optA
+        option: A
+        text: Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands.
+      - n: 2g-optA
+        option: A
+        text: Explain the basic safety rules for cleaning a rifle, and identify the materials needed.
+      - n: 2h-optA
+        option: A
+        text: Demonstrate how to clean a rifle properly and safely.
+      - n: 2i-optA
+        option: A
+        text: Discuss what points you would consider in selecting a rifle.
+      - n: 2j-optA
+        option: A
+        text: Using a bolt-action .22 caliber rimfire rifle and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle.
+      - n: 2k-optA
+        option: A
+        text: "Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights—for instance, on a borrowed rifle—you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5."
+      - n: 2a-optB
+        option: B
+        text: Identify the three main parts of an air rifle, and explain how they function.
+      - n: 2b-optB
+        option: B
+        text: Identify and demonstrate the rules for safely storing and handling an air rifle.
+      - n: 2c-optB
+        option: B
+        text: Identify the two most common types of air rifle ammunition.
+      - n: 2d-optB
+        option: B
+        text: "Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through."
+      - n: 2e-optB
+        option: B
+        text: Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands.
+      - n: 2f-optB
+        option: B
+        text: Explain the basic safety rules for cleaning an air rifle, and identify the materials needed.
+      - n: 2g-optB
+        option: B
+        text: Demonstrate how to clean an air rifle properly and safely.
+      - n: 2h-optB
+        option: B
+        text: Discuss what points you would consider in selecting an air rifle.
+      - n: 2i-optB
+        option: B
+        text: Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter.
+      - n: 2j-optB
+        option: B
+        text: "Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights—for instance, on a borrowed air rifle—you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6."
+      - n: 2a-optC
+        option: C
+        text: Discuss with your counselor a brief history of the development of muzzleloading rifles.
+      - n: 2b-optC
+        option: C
+        text: Identify principal parts of muzzleloading rifles and discuss how they function.
+      - n: 2c-optC
+        option: C
+        text: Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle.
+      - n: 2d-optC
+        option: C
+        text: Identify the various grades of black powder and explain their proper and safe use.
+      - n: 2e-optC
+        option: C
+        text: Discuss proper safety procedures pertaining to black powder storage.
+      - n: 2f-optC
+        option: C
+        text: Discuss proper components of a load.
+      - n: 2g-optC
+        option: C
+        text: Identify proper procedures and accessories used for safely loading a muzzleloading rifle.
+      - n: 2h-optC
+        option: C
+        text: Identify the causes of a muzzleloading rifle’s failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each.
+      - n: 2i-optC
+        option: C
+        text: Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands.
+      - n: 2j-optC
+        option: C
+        text: Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed.
+      - n: 2k-optC
+        option: C
+        text: Demonstrate how to clean a muzzleloading rifle properly and safely.
+      - n: 2l-optC
+        option: C
+        text: Discuss what points you would consider in selecting a muzzleloading rifle.
+      - n: 2m-optC
+        option: C
+        text: Using a muzzleloading rifle of .45 or .50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can.
+      - n: 2n-optC
+        option: C
+        text: "Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights—for instance, on a borrowed muzzleloading rifle—you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7."
+  - n: "3"
+    text: Identify how you could apply the skills and knowledge of safe and responsible use of firearms you learned in this merit badge to pursue a career or personal hobby. Research the additional training and experience you would need, expenses you may incur, and the affiliation with organizations that could help you maximize the positive impact and enjoyment you gain from it. Discuss what you learned with your counselor, and share what short-term and longterm goals you might have if you pursued this.

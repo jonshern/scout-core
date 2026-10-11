@@ -1,0 +1,108 @@
+id: badge:soil-and-water-conservation
+name: Soil and Water Conservation
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/soil-and-water-conservation/
+worksheet_url: http://usscouts.org/mb/worksheets/Soil-and-Water-Conservation.pdf
+requirements:
+  - n: "1"
+    text: "Do the following:"
+    children:
+      - n: 1a
+        text: Tell what soil is. Tell how it is formed.
+      - n: 1b
+        text: Describe three kinds of soil. Tell how they are different.
+      - n: 1c
+        text: Name the three main plant nutrients in fertile soil. Tell how they can be put back when used up.
+  - n: "2"
+    text: "Do the following:"
+    children:
+      - n: 2a
+        text: Define soil erosion.
+      - n: 2b
+        text: Tell why soil erosion is important and how it affects you.
+      - n: 2c
+        text: Name three kinds of soil erosion. Describe each.
+      - n: 2d
+        text: Take pictures of or draw two kinds of soil erosion.
+  - n: "3"
+    text: "Do the following:"
+    children:
+      - n: 3a
+        text: Tell what is meant by conservation practices.
+      - n: 3b
+        text: Describe the effect of three kinds of erosion-control practices.
+      - n: 3c
+        text: Take pictures of or draw three kinds of erosion-control practices.
+  - n: "4"
+    text: "Do the following:"
+    children:
+      - n: 4a
+        text: Explain what a watershed is.
+      - n: 4b
+        text: Outline the smallest watershed that you can find on a contour map.
+      - n: 4c
+        text: Outline, as far as the map will allow, the next larger watershed that also has the smallest in it.
+      - n: 4d
+        text: Explain what a river basin is. Tell why all people living in a river basin should be concerned about land and water use in the basin.
+      - n: 4e
+        text: Explain what an aquifer is and why it can be important to communities.
+  - n: "5"
+    text: "Do the following:"
+    children:
+      - n: 5a
+        text: Make a drawing to show the hydrologic cycle.
+      - n: 5b
+        text: "Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, transpiration."
+      - n: 5c
+        text: Explain how removal of vegetation will affect the way water runs off a watershed.
+      - n: 5d
+        text: Tell how uses of forest, range, and farmland affect usable water supply.
+      - n: 5e
+        text: Explain how industrial use affects water supply.
+  - n: "6"
+    text: "Do the following:"
+    children:
+      - n: 6a
+        text: Tell what is meant by “water pollution.”
+      - n: 6b
+        text: Describe common sources of water pollution and explain the effects of each.
+      - n: 6c
+        text: "Explain the terms: primary water treatment, secondary waste treatment, biochemical oxygen demand."
+      - n: 6d
+        text: Make a drawing showing the principles of complete waste treatment.
+  - n: "7"
+    text: "Do TWO of the following:"
+    choose: 2
+    children:
+      - n: 7a
+        text: Make a trip to TWO of the following places. Write a report of more than 500 words about the soil and water and energy conservation practices you saw.
+        children:
+          - n: 7a1
+            text: An agricultural experiment
+          - n: 7a2
+            text: A managed forest or woodlot, range, or pasture
+          - n: 7a3
+            text: A wildlife refuge or a fish or game management area
+          - n: 7a4
+            text: A conservation-managed farm or ranch
+          - n: 7a5
+            text: A managed watershed
+          - n: 7a6
+            text: A waste-treatment plant
+          - n: 7a7
+            text: A public drinking water treatment plant
+          - n: 7a8
+            text: An industry water use installation
+          - n: 7a9
+            text: A desalinization plant
+      - n: 7b
+        text: Plant 100 trees, bushes, and/or vines for a good purpose.
+      - n: 7c
+        text: Seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone or in a mixture.
+      - n: 7d
+        text: Study a soil survey report. Describe the things in it. Using tracing paper and pen, trace over any of the soil maps, outline an area with three or more different kinds of soil. List each kind of soil by full name and map symbol.
+      - n: 7e
+        text: Make a list of places in your neighborhood, camps, school ground, or park that have erosion, sedimentation, or pollution problems. Describe how these could be corrected through individual or group action.
+      - n: 7f
+        text: Carry out any other soil and water conservation project approved by your counselor.

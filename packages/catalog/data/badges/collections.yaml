@@ -1,0 +1,57 @@
+id: badge:collections
+name: Collections
+edition: 2026
+eagle_required: false
+official_url: https://www.scouting.org/merit-badges/collections/
+worksheet_url: http://usscouts.org/mb/worksheets/Collections.pdf
+requirements:
+  - n: "1"
+    text: Prepare a short written report or outline for your counselor, giving a detailed description of your collection,* including a short history, why you enjoy your collection, and what you have learned from collecting. Be sure to include why you chose that particular type of collection/collecting method.
+  - n: "2"
+    text: Explain the growth and development of your collection.
+  - n: "3"
+    text: Demonstrate your knowledge of preserving and displaying your collection. *Stamp and coin collecting are excluded from eligibility for this merit badge.
+    children:
+      - n: 3a
+        text: "Explain the precautions you need to take to preserve your collection, including:"
+        children:
+          - n: 3a1
+            text: Handling
+          - n: 3a2
+            text: Cleaning
+          - n: 3a3
+            text: Storage
+      - n: 3b
+        text: Explain how best to display your collection, keeping in mind preserving as discussed above.
+      - n: 3c
+        text: Explain to your counselor the events available for a hobbyist of this collection, including shows, seminars, conventions, contests, and museum programs or exhibits.
+  - n: "4"
+    text: "Demonstrate your knowledge of collecting and investing. Discuss with your counselor:"
+    children:
+      - n: 4a
+        text: How investing and speculation would apply to your collection
+      - n: 4b
+        text: What you would look for in purchasing other collections similar to yours
+      - n: 4c
+        text: What you would expect in return value if you decided to sell all or part of the collection
+  - n: "5"
+    text: "Do the following:"
+    children:
+      - n: 5a
+        text: Discuss with your counselor at least 10 terms commonly used to describe your collection and be prepared to discuss the definition of each.
+      - n: 5b
+        text: "Show your counselor any two groups from your collection. Explain how you organized your collection and why you chose that method. (Note: If your collection is too large to transport and your counselor is unable to view your collection directly, photographs should be available to share.)"
+      - n: 5c
+        text: Explain the monetary value of your collection and where you learned about those values.
+      - n: 5d
+        text: Explain how your collection is graded for value, physical defects, size, and age. Show the various classifications or ratings used in your collection.
+      - n: 5e
+        text: List the national, state, or local association(s) related to or associated with your collection.
+      - n: 5f
+        text: Show the location of and explain to your counselor the identification number (if applicable), series, brand name (if any), and any other special identification marks.
+  - n: "6"
+    text: Discuss with your counselor the plans you have to continue with the collection in the future.
+  - n: "7"
+    text: Discuss with your counselor why and how collecting has changed and how this applies to your collection.
+  - n: "8"
+    text: Find out about career opportunities in collecting. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.
