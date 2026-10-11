@@ -47,6 +47,20 @@ agree on:
 
 Curriculum and idea lists stay with Waypoint; Emmett's own data stays in emmett-scouting.
 
+## Where each piece lives (decided 2026-10-11)
+
+| Repo | Holds | Deploys |
+| --- | --- | --- |
+| jonshern/Scouthosting | The core service: Compass's Next.js app, which is both the troop site and the API every product calls (Better Auth sign-in, `/api/v1`), plus the family Terraform | One core Cloud Run service and Cloud SQL |
+| jonshern/scout-core | Shared packages only | Packages, published for the other repos to install |
+| jonshern/bluecard | Waypoint's Expo app | Waypoint web on Firebase Hosting (`/api/**` to the core), phone app via EAS |
+| jonshern/emmett-scouting | Emmett's Journey, Summit's first version | Later: Summit web the same way as Waypoint |
+
+The core stays in Scouthosting because the API and the troop site are one Next.js app; splitting
+them is a large refactor with no payoff yet, and three threads are working there now. The
+`bluecard/server/` copy of Compass is retired rather than kept in step. If the API is ever
+split from the troop UI, the API can move here as `apps/core`.
+
 ## Sign-in
 
 Sign-in is part of the one API, not a scout-core package. After Scouthosting PR #120,
@@ -92,10 +106,10 @@ groups, not requirements, and have no ID. See `packages/catalog/src/ids.ts`.
 
 Each step starts only after the threads it touches have merged.
 
-1. **Copy rule (now).** `bluecard/server/` tracks Scouthosting main; Waypoint additions go in new files and migrations.
+1. **One source (now).** Scouthosting is the only Compass; the core image builds from it and `bluecard/server/` is dropped. Waypoint-only tables go in as new Scouthosting migrations.
 2. **Catalog package.** In scout-core now. Waypoint and Emmett's app switch to it when Jon says go. Emmett's app needs an ID map for 83 changed items. Waypoint's `progress.requirement_id` check rejects 326 real IDs (for example `badge:cycling#6a-optA`) and must be widened to `REQUIREMENT_ID_PATTERN`.
-3. **Sign-in.** After the Better Auth work merges in Scouthosting: sync it, drop Firebase Auth from Waypoint's Terraform, wire Waypoint's app to Better Auth.
-4. **Cutover.** After the Compass mobile API and code-health work merges: one Compass codebase, the other frozen.
+3. **Sign-in.** After the Better Auth work merges in Scouthosting: drop Firebase Auth from Waypoint's Terraform, wire Waypoint's app to Better Auth.
+4. **Family deploy.** After the Compass mobile API and code-health work merges: family Terraform and deploy next to the core in Scouthosting, Waypoint and Summit on Firebase Hosting with `/api/**` sent to the core, Compass off fly.io.
 5. **Guardians and messaging.** Guardian table, combined rule in `safeguard` plus database triggers.
 6. **Events.** Badge-day blocks and stations onto Compass events and slots.
 7. **Tokens and UI.** `packages/tokens` for all the Expo apps.
