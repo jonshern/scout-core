@@ -4,6 +4,23 @@ The living version of this design, with a diagram and comments, is the Claude Do
 "Shared layer across Compass, Bluecard and Emmett's Journey" in the Emmett Scouting project.
 This file is the copy that travels with the code. Last updated 2026-10-11.
 
+## Is the core an API or components?
+
+Both, split by what each part is for. Anything that holds data or enforces a rule runs as
+one **API**: Compass's backend, deployed once. Anything an app needs at build time ships as
+**packages** from this repo.
+
+| Part | Form | Why |
+| --- | --- | --- |
+| Accounts, roles, guardians, scouts, progress, events, sign-ups, messaging | One API | Data and safety rules live in one place; one account per family; a Bluecard sign-off shows on the scout's trail |
+| Requirement catalog and IDs | Package | Static data every app bundles; works offline |
+| Youth-protection rules (client side) | Package | Apps preview who gets copied; the API enforces the same rules |
+| Typed API client | Package | The three apps call the API the same way |
+| Design tokens and shared UI | Package | One Slate & Sky look |
+
+An API alone would make apps fetch data they can bundle and leave the UI copied three times.
+Packages alone would leave each product with its own accounts and its own copy of Compass.
+
 ## Three sites on one core
 
 | Site | For | Today |
