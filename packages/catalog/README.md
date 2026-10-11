@@ -1,7 +1,7 @@
 # @scout-core/catalog
 
 Every Scouts BSA rank and merit badge requirement, one YAML file per item, with the
-requirement IDs that Compass, Bluecard and Path to Eagle all join on.
+requirement IDs that Compass, Waypoint and Summit all join on.
 
 ```
 data/ranks/<slug>.yaml     7 ranks, Scout to Eagle
@@ -19,7 +19,7 @@ checkableIds(findItem(catalog, 'badge:plumbing')!); // ['badge:plumbing#1a', ...
 parseRequirementId('badge:cycling#6a-optA');        // { kind: 'badge', slug: 'cycling', item: 'badge:cycling', n: '6a-optA' }
 ```
 
-`catalog.json` has the same shape Bluecard and Emmett's Journey already read
+`catalog.json` has the same shape Waypoint and Emmett's Journey already read
 (`{ ranks: Item[], badges: Item[] }`), so either app can switch without code changes.
 
 In Node, `@scout-core/catalog/node` reads and validates the YAML directly (`loadCatalog()`).

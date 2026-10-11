@@ -1,7 +1,7 @@
 {
   "name": "scout-core",
   "private": true,
-  "description": "Shared layer for Compass, Bluecard and the scout's path-to-Eagle app.",
+  "description": "Shared layer for Compass, Waypoint and Summit.",
   "type": "module",
   "engines": { "node": ">=22" },
   "workspaces": ["packages/*"],

@@ -1,7 +1,7 @@
 # Architecture
 
 The living version of this design, with a diagram and comments, is the Claude Doc
-"Shared layer across Compass, Bluecard and Emmett's Journey" in the Emmett Scouting project.
+"Shared layer across Compass, Waypoint and Summit" in the Emmett Scouting project.
 This file is the copy that travels with the code. Last updated 2026-10-11.
 
 ## Is the core an API or components?
@@ -12,7 +12,7 @@ one **API**: Compass's backend, deployed once. Anything an app needs at build ti
 
 | Part | Form | Why |
 | --- | --- | --- |
-| Accounts, roles, guardians, scouts, progress, events, sign-ups, messaging | One API | Data and safety rules live in one place; one account per family; a Bluecard sign-off shows on the scout's trail |
+| Accounts, roles, guardians, scouts, progress, events, sign-ups, messaging | One API | Data and safety rules live in one place; one account per family; a Waypoint sign-off shows on the scout's trail |
 | Requirement catalog and IDs | Package | Static data every app bundles; works offline |
 | Youth-protection rules (client side) | Package | Apps preview who gets copied; the API enforces the same rules |
 | Typed API client | Package | The three apps call the API the same way |
@@ -23,11 +23,13 @@ Packages alone would leave each product with its own accounts and its own copy o
 
 ## Three sites on one core
 
+Product names: **Compass** (troops), **Waypoint** (merit badges and events), **Summit** (a scout's path to Eagle). Repo names stay as they are.
+
 | Site | For | Today |
 | --- | --- | --- |
 | **Compass** ([jonshern/Scouthosting](https://github.com/jonshern/Scouthosting)) | Troops running their unit: website, calendar, roster, messaging, treasury | Next.js + Prisma, 85 tables |
-| **Bluecard** ([jonshern/bluecard](https://github.com/jonshern/bluecard)) | Merit badge counselors and events: kits, badge days, sign-ups | Expo app (web and phone), GCP pipeline, Compass backend being ported in |
-| **Path to Eagle** | A scout and their family following ranks and badges to Eagle | Emmett's Journey (jonshern/emmett-scouting), offline on his device; to be generalized for any scout |
+| **Waypoint** ([jonshern/bluecard](https://github.com/jonshern/bluecard)) | Merit badge counselors and events: kits, badge days, sign-ups | Expo app (web and phone), GCP pipeline, Compass backend being ported in |
+| **Summit** | A scout and their family following ranks and badges to Eagle | First version is Emmett's Journey (jonshern/emmett-scouting), offline on his device |
 
 ## The shape
 
@@ -39,11 +41,21 @@ agree on:
 | Package | What it is | Status |
 | --- | --- | --- |
 | `@scout-core/catalog` | Rank and merit badge requirements, requirement IDs, validator, compiled `catalog.json` | Started |
-| `@scout-core/safeguard` | Youth-protection rules: who must be copied, who may message whom; the same rules the database enforces | Planned |
+| `@scout-core/safeguard` | Youth-protection rules: who must be copied, who may message whom; the same rules the database enforces | Started |
 | `@scout-core/api-client` | Typed client for the backend API, shared by the Expo apps | Planned |
 | `@scout-core/tokens` | Slate & Sky design tokens and the small UI pieces the apps copy today | Planned |
 
-Curriculum and idea lists stay with Bluecard; Emmett's own data stays in emmett-scouting.
+Curriculum and idea lists stay with Waypoint; Emmett's own data stays in emmett-scouting.
+
+## Sign-in
+
+Sign-in is part of the one API, not a scout-core package. After Scouthosting PR #120,
+Compass's auth is Better Auth in `src/lib/auth/`: `auth.ts` (config), `session.ts`,
+`mfa-plugin.ts` (Compass's own two-step), `providers.ts` (Google, Apple), `social-routes.ts`
+and `claim-orgs.ts`. Waypoint and Summit sign in with Better Auth's client against the same
+API, through `@scout-core/api-client`. If a second server ever needs it, `auth.ts`,
+`mfa-plugin.ts` and `providers.ts` can lift into `@scout-core/auth`, since Better Auth runs
+outside Next.js.
 
 ## What is shared where
 
@@ -58,8 +70,8 @@ Curriculum and idea lists stay with Bluecard; Emmett's own data stays in emmett-
 | API types | Yes | `api-client` |
 | Design tokens | Yes | `tokens` |
 | Troop website, treasury, sales | No | Compass |
-| Counselor kits, meeting runner, badge-day planner | No | Bluecard |
-| A scout's trail screens | No | Path to Eagle |
+| Counselor kits, meeting runner, badge-day planner | No | Waypoint |
+| A scout's trail screens | No | Summit |
 
 ## Requirement IDs
 
@@ -80,23 +92,23 @@ groups, not requirements, and have no ID. See `packages/catalog/src/ids.ts`.
 
 Each step starts only after the threads it touches have merged.
 
-1. **Copy rule (now).** `bluecard/server/` tracks Scouthosting main; Bluecard additions go in new files and migrations.
-2. **Catalog package.** In scout-core now. Bluecard and Emmett's app switch to it when Jon says go. Emmett's app needs an ID map for 83 changed items. Bluecard's `progress.requirement_id` check rejects 326 real IDs (for example `badge:cycling#6a-optA`) and must be widened to `REQUIREMENT_ID_PATTERN`.
-3. **Sign-in.** After the Better Auth work merges in Scouthosting: sync it, drop Firebase Auth from Bluecard's Terraform, wire Bluecard's app to Better Auth.
+1. **Copy rule (now).** `bluecard/server/` tracks Scouthosting main; Waypoint additions go in new files and migrations.
+2. **Catalog package.** In scout-core now. Waypoint and Emmett's app switch to it when Jon says go. Emmett's app needs an ID map for 83 changed items. Waypoint's `progress.requirement_id` check rejects 326 real IDs (for example `badge:cycling#6a-optA`) and must be widened to `REQUIREMENT_ID_PATTERN`.
+3. **Sign-in.** After the Better Auth work merges in Scouthosting: sync it, drop Firebase Auth from Waypoint's Terraform, wire Waypoint's app to Better Auth.
 4. **Cutover.** After the Compass mobile API and code-health work merges: one Compass codebase, the other frozen.
 5. **Guardians and messaging.** Guardian table, combined rule in `safeguard` plus database triggers.
 6. **Events.** Badge-day blocks and stations onto Compass events and slots.
 7. **Tokens and UI.** `packages/tokens` for all the Expo apps.
-8. **Path to Eagle.** Progress table in the backend; the scout site reads the catalog and progress; sign-offs from Bluecard and Compass tick the same IDs.
+8. **Summit.** Progress table in the backend; the scout site reads the catalog and progress; sign-offs from Waypoint and Compass tick the same IDs.
 
 ## Trade-offs
 
 | Shape | Good | Costly |
 | --- | --- | --- |
-| One backend + small packages (chosen direction) | One account, one place to fix security holes, one deploy and bill | Bluecard inherits Compass's size; Compass's tenant model has to stretch to district-level events |
+| One backend + small packages (chosen direction) | One account, one place to fix security holes, one deploy and bill | Waypoint inherits Compass's size; Compass's tenant model has to stretch to district-level events |
 | Packages only, separate backends | Each product deploys alone | Two Compass copies drift; every fix made twice; two accounts per family |
 | Separate shared service | Clean identity boundary | A third service to run, for one developer |
 
-Open risks: repo visibility (Scouthosting, Bluecard and scout-core are public; youth data
+Open risks: repo visibility (Scouthosting, bluecard and scout-core are public; youth data
 must never be committed), Compass's per-org encryption of member details must cover guardians
 who belong to no org, and the stricter messaging rule will change Compass chat for leaders.
