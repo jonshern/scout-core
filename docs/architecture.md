@@ -1,7 +1,7 @@
 # Architecture
 
 The living version of this design, with a diagram and comments, is the Claude Doc
-"Shared layer across Compass, Waypoint and Northstar" in the Emmett Scouting project.
+"Shared layer across Compass, Waypoint and Lantern" in the Emmett Scouting project.
 This file is the copy that travels with the code. Last updated 2026-10-11.
 
 ## Is the core an API or components?
@@ -23,13 +23,13 @@ Packages alone would leave each product with its own accounts and its own copy o
 
 ## Three sites on one core
 
-Product names: **Compass** (troops), **Waypoint** (merit badges and events), **Northstar** (a scout's path to Eagle; renamed from Summit on 2026-10-12 because Scouting America owns THE SUMMIT mark). Repo names stay as they are.
+Product names: **Compass** (troops), **Waypoint** (merit badges and events), **Lantern** (a scout's path to Eagle; renamed from Summit on 2026-10-12 because Scouting America owns THE SUMMIT mark). Repo names stay as they are.
 
 | Site | For | Today |
 | --- | --- | --- |
 | **Compass** ([jonshern/Scouthosting](https://github.com/jonshern/Scouthosting)) | Troops running their unit: website, calendar, roster, messaging, treasury | Next.js + Prisma, 85 tables |
 | **Waypoint** ([jonshern/bluecard](https://github.com/jonshern/bluecard)) | Merit badge counselors and events: kits, badge days, sign-ups | Expo app (web and phone), GCP pipeline, Compass backend being ported in |
-| **Northstar** | A scout and their family following ranks and badges to Eagle | First version is Emmett's Journey (jonshern/emmett-scouting), offline on his device |
+| **Lantern** | A scout and their family following ranks and badges to Eagle | First version is Emmett's Journey (jonshern/emmett-scouting), offline on his device |
 
 ## The shape
 
@@ -54,7 +54,7 @@ Curriculum and idea lists stay with Waypoint; Emmett's own data stays in emmett-
 | jonshern/Scouthosting | The core service: Compass's Next.js app, which is both the troop site and the API every product calls (Better Auth sign-in, `/api/v1`), plus the family Terraform | One core Cloud Run service and Cloud SQL |
 | jonshern/scout-core | Shared packages only | Packages, published for the other repos to install |
 | jonshern/bluecard | Waypoint's Expo app | Waypoint web on Firebase Hosting (`/api/**` to the core), phone app via EAS |
-| jonshern/emmett-scouting | Emmett's Journey, Northstar's first version | Later: Northstar web the same way as Waypoint |
+| jonshern/emmett-scouting | Emmett's Journey, Lantern's first version | Later: Lantern web the same way as Waypoint |
 
 The core stays in Scouthosting because the API and the troop site are one Next.js app; splitting
 them is a large refactor with no payoff yet, and three threads are working there now. The
@@ -66,7 +66,7 @@ split from the troop UI, the API can move here as `apps/core`.
 Sign-in is part of the one API, not a scout-core package. After Scouthosting PR #120,
 Compass's auth is Better Auth in `src/lib/auth/`: `auth.ts` (config), `session.ts`,
 `mfa-plugin.ts` (Compass's own two-step), `providers.ts` (Google, Apple), `social-routes.ts`
-and `claim-orgs.ts`. Waypoint and Northstar sign in with Better Auth's client against the same
+and `claim-orgs.ts`. Waypoint and Lantern sign in with Better Auth's client against the same
 API, through `@scout-core/api-client`. If a second server ever needs it, `auth.ts`,
 `mfa-plugin.ts` and `providers.ts` can lift into `@scout-core/auth`, since Better Auth runs
 outside Next.js.
@@ -85,7 +85,7 @@ outside Next.js.
 | Design tokens | Yes | `tokens` |
 | Troop website, treasury, sales | No | Compass |
 | Counselor kits, meeting runner, badge-day planner | No | Waypoint |
-| A scout's trail screens | No | Northstar |
+| A scout's trail screens | No | Lantern |
 
 ## Requirement IDs
 
@@ -109,11 +109,11 @@ Each step starts only after the threads it touches have merged.
 1. **One source (now).** Scouthosting is the only Compass; the core image builds from it and `bluecard/server/` is dropped. Waypoint-only tables go in as new Scouthosting migrations.
 2. **Catalog package.** In scout-core now. Waypoint and Emmett's app switch to it when Jon says go. Emmett's app needs an ID map for 83 changed items. Waypoint's `progress.requirement_id` check rejects 326 real IDs (for example `badge:cycling#6a-optA`) and must be widened to `REQUIREMENT_ID_PATTERN`.
 3. **Sign-in.** After the Better Auth work merges in Scouthosting: drop Firebase Auth from Waypoint's Terraform, wire Waypoint's app to Better Auth.
-4. **Family deploy.** After the Compass mobile API and code-health work merges: family Terraform and deploy next to the core in Scouthosting, Waypoint and Northstar on Firebase Hosting with `/api/**` sent to the core, Compass off fly.io.
+4. **Family deploy.** After the Compass mobile API and code-health work merges: family Terraform and deploy next to the core in Scouthosting, Waypoint and Lantern on Firebase Hosting with `/api/**` sent to the core, Compass off fly.io.
 5. **Guardians and messaging.** Guardian table, combined rule in `safeguard` plus database triggers.
 6. **Events.** Badge-day blocks and stations onto Compass events and slots.
 7. **Tokens and UI.** `packages/tokens` for all the Expo apps.
-8. **Northstar.** Progress table in the backend; the scout site reads the catalog and progress; sign-offs from Waypoint and Compass tick the same IDs.
+8. **Lantern.** Progress table in the backend; the scout site reads the catalog and progress; sign-offs from Waypoint and Compass tick the same IDs.
 
 ## Trade-offs
 
