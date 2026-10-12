@@ -1,7 +1,7 @@
 # @scout-core/catalog
 
 Every Scouts BSA rank and merit badge requirement, one YAML file per item, with the
-requirement IDs that Compass, Waypoint and Northstar all join on.
+requirement IDs that Compass, Waypoint and Lantern all join on.
 
 ```
 data/ranks/<slug>.yaml     7 ranks, Scout to Eagle

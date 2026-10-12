@@ -4,7 +4,7 @@ Shared layer for three scouting sites built on one backend:
 
 - **Compass**: troops running their unit
 - **Waypoint**: merit badge counselors and events
-- **Northstar**: a scout's own path to Eagle
+- **Lantern**: a scout's own path to Eagle
 
 Design: [docs/architecture.md](docs/architecture.md).
 
