@@ -1,6 +1,6 @@
 # @scout-core/safeguard
 
-The youth-protection rules Compass, Waypoint and Summit all follow, as plain functions with
+The youth-protection rules Compass, Waypoint and Northstar all follow, as plain functions with
 no database or framework. The API and database enforce them; apps call them to show a sender
 who will be copied before anything is sent.
 

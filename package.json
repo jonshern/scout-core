@@ -1,7 +1,7 @@
 {
   "name": "scout-core",
   "private": true,
-  "description": "Shared layer for Compass, Waypoint and Summit.",
+  "description": "Shared layer for Compass, Waypoint and Northstar.",
   "type": "module",
   "engines": { "node": ">=22" },
   "workspaces": ["packages/*"],
