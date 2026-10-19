@@ -56,3 +56,17 @@ describe('addressing', () => {
     expect(addressing(plan, null).to).toEqual([]);
   });
 });
+
+describe("a scout's own address as the parent's", () => {
+  const selfParent: Family = { youthId: 'e', youthName: 'Emmett', youthEmail: 'Emmett@x.org', guardianEmails: [' emmett@x.org'] };
+
+  it('holds the scout back instead of emailing them alone', () => {
+    const plan = planFamilyMessage([selfParent], { includeYouth: true });
+    expect(plan.recipients).toEqual([]);
+    expect(plan.held.map((h) => h.youthId)).toEqual(['e']);
+  });
+
+  it('fails the last check before sending', () => {
+    expect(() => assertPlanSafe({ recipients: [{ youthId: 'e', youthName: 'Emmett', to: ['emmett@x.org'] }] }, [selfParent])).toThrow();
+  });
+});
