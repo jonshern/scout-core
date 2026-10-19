@@ -22,12 +22,15 @@ export interface Plan {
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 export const isEmail = (e?: string | null): e is string => !!e && EMAIL.test(e.trim());
 const clean = (list: readonly string[]) => list.map((e) => e.trim()).filter(isEmail);
+const same = (a: string, b?: string) => !!b && a.toLowerCase() === b.trim().toLowerCase();
+/** A guardian address that is the youth's own doesn't count: the youth would be emailed alone. */
+const parentEmails = (f: Family | undefined) => clean(f?.guardianEmails ?? []).filter((e) => !same(e, f?.youthEmail));
 
 export function planFamilyMessage(families: readonly Family[], opts: { includeYouth: boolean; secondAdultEmail?: string | null }): Plan {
   const recipients: Plan['recipients'] = [];
   const held: Plan['held'] = [];
   for (const f of families) {
-    const parents = clean(f.guardianEmails);
+    const parents = parentEmails(f);
     if (!parents.length) {
       held.push({ youthId: f.youthId, youthName: f.youthName, reason: 'No parent email yet' });
       continue;
@@ -44,7 +47,7 @@ export function planFamilyMessage(families: readonly Family[], opts: { includeYo
 export function assertPlanSafe(plan: Pick<Plan, 'recipients'>, families: readonly Family[]): void {
   const byId = new Map(families.map((f) => [f.youthId, f]));
   for (const r of plan.recipients) {
-    const parents = clean(byId.get(r.youthId)?.guardianEmails ?? []);
+    const parents = parentEmails(byId.get(r.youthId));
     if (!parents.some((p) => r.to.includes(p))) throw new Error(`${r.youthName} has no parent on this message`);
   }
 }

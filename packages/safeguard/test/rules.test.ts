@@ -72,3 +72,21 @@ describe('yptCurrent', () => {
     expect(yptCurrent({ ...counselor, yptCurrentUntil: new Date('2026-12-01') }, now)).toBe(true);
   });
 });
+
+describe('fails closed on bad data', () => {
+  it('counts the same leader once however often they are listed', () => {
+    const v = checkGroup({ members: [scout, mom, counselor, { ...counselor }], guardiansOf, now });
+    expect(!v.ok && v.violations.map((x) => x.code)).toEqual(['two-deep']);
+  });
+
+  it('treats a person with a missing or misspelled kind as a youth', () => {
+    const odd = { id: 'emmett', kind: 'Youth' } as unknown as Person;
+    expect(checkMessage({ sender: counselor, recipients: [odd], guardiansOf }).ok).toBe(false);
+    expect(checkMessage({ sender: odd, recipients: [counselor, mom], guardiansOf }).ok).toBe(false);
+  });
+
+  it("doesn't count a youth as their own guardian", () => {
+    const selfGuarded = (id: string) => (id === 'emmett' ? ['emmett'] : []);
+    expect(checkMessage({ sender: counselor, recipients: [scout], guardiansOf: selfGuarded }).ok).toBe(false);
+  });
+});

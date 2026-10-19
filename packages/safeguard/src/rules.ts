@@ -18,19 +18,23 @@ export function yptCurrent(p: Person, now: Date): boolean {
   return new Date(p.yptCurrentUntil).getTime() > now.getTime();
 }
 
+// Fail closed: anyone not plainly marked adult (a missing or misspelled
+// kind from JSON or a database row) is treated as a youth.
+const isYouth = (p: Person) => p.kind !== 'adult';
+
 const verdict = (violations: Violation[]): Verdict => (violations.length ? { ok: false, violations } : { ok: true });
 
 /** Rule 1 and 2 for a direct message or email. `recipients` is everyone on it besides the sender (To, CC and BCC). */
 export function checkMessage(args: { sender: Person; recipients: readonly Person[]; guardiansOf: GuardiansOf }): Verdict {
   const { sender, recipients, guardiansOf } = args;
   const violations: Violation[] = [];
-  if (sender.kind === 'youth') {
+  if (isYouth(sender)) {
     violations.push({ code: 'youth-sender', message: 'Scouts can post in a group but cannot start a direct message or email.' });
   }
   const onMessage = new Set([sender.id, ...recipients.map((r) => r.id)]);
   for (const r of recipients) {
-    if (r.kind !== 'youth') continue;
-    if (!guardiansOf(r.id).some((g) => onMessage.has(g))) {
+    if (!isYouth(r)) continue;
+    if (!guardiansOf(r.id).some((g) => g !== r.id && onMessage.has(g))) {
       violations.push({ code: 'guardian-missing', youthId: r.id, message: `No parent or guardian of ${r.id} is on this message.` });
     }
   }
@@ -40,10 +44,12 @@ export function checkMessage(args: { sender: Person; recipients: readonly Person
 /** Rules 3 and 4 for a group (a chat channel, an event's message list, a patrol). */
 export function checkGroup(args: { members: readonly Person[]; guardiansOf: GuardiansOf; now: Date }): Verdict {
   const { members, guardiansOf, now } = args;
-  const youth = members.filter((m) => m.kind === 'youth');
+  const youth = members.filter(isYouth);
   if (!youth.length) return { ok: true };
   const violations: Violation[] = [];
-  const leaders = members.filter((m) => m.isLeader && yptCurrent(m, now)).length;
+  // Count people, not entries: the same leader listed twice (a channel roster merged
+  // with an event roster) is still one adult.
+  const leaders = new Set(members.filter((m) => m.isLeader && yptCurrent(m, now)).map((m) => m.id)).size;
   if (leaders < 2) {
     violations.push({
       code: 'two-deep',
@@ -53,7 +59,7 @@ export function checkGroup(args: { members: readonly Person[]; guardiansOf: Guar
   }
   const ids = new Set(members.map((m) => m.id));
   for (const y of youth) {
-    if (!guardiansOf(y.id).some((g) => ids.has(g))) {
+    if (!guardiansOf(y.id).some((g) => g !== y.id && ids.has(g))) {
       violations.push({ code: 'guardian-missing', youthId: y.id, message: `No parent or guardian of ${y.id} is in this group.` });
     }
   }
